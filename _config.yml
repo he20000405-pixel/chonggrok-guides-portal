@@ -1,5 +1,5 @@
-title: "ChongGrok AI 会员指南"
-description: "ChatGPT、Grok、Claude 与 Gemini 会员升级流程、账号资料边界和知识导航。"
+title: "ChongGrok AI 会员充值指南"
+description: "ChongGrok 提供 ChatGPT、Grok、Claude 与 Gemini AI 会员订阅协助、国内支付、订单验收和问题排查指南。"
 url: "https://guides.chonggrok.com"
 baseurl: ""
 lang: "zh-CN"
@@ -15,4 +15,3 @@ exclude:
   - "scripts"
   - "tmp"
   - "vendor"
-

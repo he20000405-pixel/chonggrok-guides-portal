@@ -1,96 +1,73 @@
 ---
 layout: default
-title: "AI 会员升级安全说明：不要密码不等于零风险"
-seo_title: "AI 会员升级资料与安全边界"
-description: "解释 ChatGPT session、Grok 与 Claude User ID、Gemini 资料确认的安全边界，以及不应提交的密码、验证码和恢复码。"
+title: "ChongGrok 账号资料与会员服务安全说明"
+seo_title: "AI 会员服务安全说明"
+description: "了解 ChongGrok 不需要密码的服务边界、ChatGPT session 与 User ID 的敏感性、最少资料原则和订单安全检查。"
 permalink: /security/
 current: security
 ---
 
 <section class="page-hero">
   <div class="shell">
-    <p class="eyebrow">Security and data boundary</p>
-    <h1>不要密码，但凭证和账号标识仍然需要谨慎处理</h1>
-    <p>“不需要密码”只能说明流程不会索要账号密码，不能被理解为绝对安全或零风险。提交任何资料前，都应确认用途、入口、保存范围和完成后的处置方式。</p>
+    <p class="eyebrow">Security</p>
+    <h1>不索要密码，只提交本次服务需要的资料</h1>
+    <p>ChongGrok 不要求提供账号密码、验证码或恢复码。部分产品需要 session 或 User ID 来匹配账号，这些信息虽然不是密码，仍应按敏感资料谨慎处理。</p>
   </div>
 </section>
 
 <section class="section">
   <div class="shell content-layout">
     <article class="prose">
-      <h2 id="never-share">任何产品都不应提交的资料</h2>
+      <h2 id="never">这些资料不要提交</h2>
       <ul class="check-list">
-        <li>账号密码。</li>
-        <li>短信、邮箱或身份验证器中的验证码。</li>
-        <li>恢复码、备用代码和能够重置账号的恢复信息。</li>
-        <li>与本次会员处理无关的身份证件、银行卡完整信息或其他私人资料。</li>
+        <li>账号密码，以及任何能够直接登录账号的信息。</li>
+        <li>短信、邮箱或身份验证器生成的验证码。</li>
+        <li>恢复码、备用代码和能够重置账号的恢复资料。</li>
+        <li>与本次订单无关的银行卡完整信息、证件或私人文件。</li>
       </ul>
 
-      <h2 id="product-boundary">产品资料边界</h2>
+      <h2 id="minimum">不同产品的最少资料</h2>
       <table>
-        <thead>
-          <tr>
-            <th>资料</th>
-            <th>它具体是什么</th>
-            <th>正确处理方式</th>
-          </tr>
-        </thead>
+        <thead><tr><th>产品</th><th>可能使用的资料</th><th>需要注意什么</th></tr></thead>
         <tbody>
-          <tr>
-            <td>ChatGPT session</td>
-            <td>当前登录会话对应的敏感凭证，不是账号密码。</td>
-            <td>只通过确认的核销流程用于本次升级；不要公开发布，完成后建议重新登录刷新。</td>
-          </tr>
-          <tr>
-            <td>Grok User ID</td>
-            <td>用于匹配 Grok 账号的标识。</td>
-            <td>逐字符核对目标账号，不把邮箱、用户名或昵称当作 User ID。</td>
-          </tr>
-          <tr>
-            <td>Claude User ID</td>
-            <td>ChongGrok 当前履约时使用的账号标识。</td>
-            <td>不能宣称它是 Anthropic 官方订阅要求；只按客服确认入口提交。</td>
-          </tr>
-          <tr>
-            <td>Gemini 资料</td>
-            <td>取决于用户自有账号升级或成品账号交付路径。</td>
-            <td>由客服逐单说明；不固定宣称凭证类型、处理时间或保证结果。</td>
-          </tr>
+          <tr><td>ChatGPT</td><td>Plus 自助流程使用 session 类凭证</td><td>它代表当前登录会话，不能公开；完成后建议重新登录刷新</td></tr>
+          <tr><td>Grok</td><td>Grok User ID</td><td>它用于匹配目标账号，不是密码；仍应只在确认的订单流程中提交</td></tr>
+          <tr><td>Claude</td><td>客服说明的 User ID</td><td>它是 ChongGrok 履约标识，不是 Anthropic 官方订阅要求</td></tr>
+          <tr><td>Gemini</td><td>取决于具体账号类型和服务方案</td><td>提交前由产品页或客服说明，不固定宣称统一凭证</td></tr>
         </tbody>
       </table>
 
-      <h2 id="before">提交前检查</h2>
+      <h2 id="before">提交前检查四件事</h2>
       <ol>
-        <li>确认当前页面域名、订单和产品名称与本次购买一致。</li>
-        <li>删除与本次处理无关的个人信息，不在公开评论、文章或截图中展示凭证。</li>
-        <li>保留订单号、卡密、付款时间和提交结果；需要售后时只发送脱敏证据。</li>
-        <li>遇到要求密码、验证码或恢复码的非确认渠道时立即停止。</li>
+        <li>确认浏览器中的域名、产品名称和订单信息一致。</li>
+        <li>确认当前登录的正是需要处理的目标账号。</li>
+        <li>删除截图中与本次订单无关的个人信息。</li>
+        <li>任何渠道要求密码、验证码或恢复码时，立即停止提交。</li>
       </ol>
 
-      <h2 id="after">完成后检查</h2>
+      <h2 id="after">完成后的安全检查</h2>
       <ol>
-        <li>回产品官方页面确认会员档位、状态和到期时间。</li>
-        <li>ChatGPT session 类流程完成后，建议退出并重新登录以刷新会话。</li>
-        <li>订单仍在处理或已经扣款时，不要建立第二笔订单。</li>
-        <li>出现异常时先保留证据，再联系正确的银行、应用商店、产品官方支持或 ChongGrok 售后。</li>
+        <li>回产品官方页面检查会员状态，不只依据付款截图判断结果。</li>
+        <li>保存订单号、卡密和处理结果，售后沟通时只提供脱敏证据。</li>
+        <li>ChatGPT session 流程完成后，建议退出并重新登录。</li>
+        <li>已有扣款或订单仍在处理时，不要重复购买。</li>
       </ol>
 
       <div class="notice">
-        <strong>风险说明：</strong>任何线上账号、支付和第三方协助服务都不是零风险。ChongGrok 不承诺所有账号均可处理，不保证固定完成时间、绝对安全或不会出现平台风控。
+        <strong>风险边界：</strong>不需要密码不等于绝对安全。账号状态、支付渠道、地区规则和产品方风控都可能影响结果。ChongGrok 不承诺所有账号均可处理，也不作固定完成时间或零风险保证。
       </div>
 
       <div class="button-row">
-        <a class="button" href="https://he20000405-pixel.github.io/resources/ai-membership-safety-checklist/" rel="noopener">阅读完整安全清单</a>
+        <a class="button" href="https://he20000405-pixel.github.io/resources/ai-membership-safety-checklist/" rel="noopener">打开 AI 会员安全清单</a>
         <a class="button" href="/how-it-works/">查看服务流程</a>
       </div>
     </article>
     <nav class="side-nav" aria-label="本页目录">
       <strong>本页目录</strong>
-      <a href="#never-share">不应提交的资料</a>
-      <a href="#product-boundary">产品资料边界</a>
-      <a href="#before">提交前检查</a>
-      <a href="#after">完成后检查</a>
+      <a href="#never">禁止提交</a>
+      <a href="#minimum">最少资料</a>
+      <a href="#before">提交前</a>
+      <a href="#after">完成后</a>
     </nav>
   </div>
 </section>
-
