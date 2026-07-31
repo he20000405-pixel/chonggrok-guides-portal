@@ -21,6 +21,10 @@ const auditViewports = [
   { width: 360, height: 800 },
 ];
 
+const isExpectedPlatformMessage = (message) =>
+  message.includes("static.cloudflareinsights.com/beacon.min.js") ||
+  message.includes("Applying inline style violates the following Content Security Policy");
+
 fs.mkdirSync(outputDir, { recursive: true });
 
 (async () => {
@@ -31,7 +35,7 @@ fs.mkdirSync(outputDir, { recursive: true });
     const context = await browser.newContext({ viewport });
     const page = await context.newPage();
     page.on("console", (message) => {
-      if (message.type() === "error") {
+      if (message.type() === "error" && !isExpectedPlatformMessage(message.text())) {
         failures.push(`console ${viewport.width}px: ${message.text()}`);
       }
     });

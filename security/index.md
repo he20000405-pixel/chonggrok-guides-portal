@@ -27,6 +27,7 @@ current: security
       </ul>
 
       <h2 id="minimum">不同产品的最少资料</h2>
+      <div class="table-scroll" role="region" aria-label="各产品最少资料说明" tabindex="0">
       <table>
         <thead><tr><th>产品</th><th>可能使用的资料</th><th>需要注意什么</th></tr></thead>
         <tbody>
@@ -36,6 +37,7 @@ current: security
           <tr><td>Gemini</td><td>取决于具体账号类型和服务方案</td><td>提交前由产品页或客服说明，不固定宣称统一凭证</td></tr>
         </tbody>
       </table>
+      </div>
 
       <h2 id="before">提交前检查四件事</h2>
       <ol>

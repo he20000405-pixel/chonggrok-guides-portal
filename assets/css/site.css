@@ -881,6 +881,19 @@ details p {
   font-size: 15px;
 }
 
+.table-scroll {
+  width: 100%;
+  max-width: 100%;
+  margin: 24px 0;
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+}
+
+.table-scroll table {
+  min-width: 680px;
+  margin: 0;
+}
+
 .prose th,
 .prose td {
   padding: 13px 12px;
@@ -1406,15 +1419,14 @@ details p {
     white-space: normal;
   }
 
-  .prose table {
-    display: block;
-    overflow-x: auto;
-    white-space: normal;
+  .table-scroll {
+    border: 1px solid var(--line);
+    border-radius: 8px;
   }
 
-  .prose th,
-  .prose td {
-    min-width: 150px;
+  .table-scroll th:first-child,
+  .table-scroll td:first-child {
+    border-left: 0;
   }
 
   .step {

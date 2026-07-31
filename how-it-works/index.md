@@ -41,6 +41,7 @@ current: flow
 
       <h2 id="submit">第三步：提交本次服务需要的资料</h2>
       <p>只通过产品页或订单流程指定的入口提交资料。ChongGrok 不要求提供账号密码、短信验证码、邮箱验证码或恢复码。</p>
+      <div class="table-scroll" role="region" aria-label="各产品所需资料说明" tabindex="0">
       <table>
         <thead><tr><th>产品</th><th>资料说明</th><th>提交前检查</th></tr></thead>
         <tbody>
@@ -50,6 +51,7 @@ current: flow
           <tr><td>Gemini</td><td>按具体方案和客服说明确认</td><td>先确认账号类型、交付方式和售后规则</td></tr>
         </tbody>
       </table>
+      </div>
 
       <h2 id="verify">第四步：回官方页面验收</h2>
       <p>处理完成后，使用原账号和原登录方式回到产品官方页面，检查会员档位、订阅状态与到期信息。ChatGPT session 类流程完成后，建议退出并重新登录，让旧会话失效并刷新账号状态。</p>
