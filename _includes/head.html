@@ -1,0 +1,61 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ page.seo_title | default: page.title }} | ChongGrok</title>
+<meta name="description" content="{{ page.description | escape }}">
+<meta name="robots" content="{{ page.robots | default: 'index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1' }}">
+<link rel="canonical" href="{{ page.canonical | default: page.url | absolute_url }}">
+<link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/assets/css/site.css">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="ChongGrok AI 会员指南">
+<meta property="og:title" content="{{ page.title | escape }}">
+<meta property="og:description" content="{{ page.description | escape }}">
+<meta property="og:url" content="{{ page.canonical | default: page.url | absolute_url }}">
+<meta property="og:image" content="https://guides.chonggrok.com/assets/images/social-preview.png">
+<meta property="og:locale" content="{{ page.og_locale | default: 'zh_CN' }}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ page.title | escape }}">
+<meta name="twitter:description" content="{{ page.description | escape }}">
+<meta name="twitter:image" content="https://guides.chonggrok.com/assets/images/social-preview.png">
+{% if page.url == "/" or page.url == "/en/" %}
+<link rel="alternate" hreflang="zh-CN" href="https://guides.chonggrok.com/">
+<link rel="alternate" hreflang="en" href="https://guides.chonggrok.com/en/">
+<link rel="alternate" hreflang="x-default" href="https://guides.chonggrok.com/">
+{% endif %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://guides.chonggrok.com/#organization",
+      "name": "ChongGrok",
+      "url": "https://chonggrok.com/",
+      "description": "面向中文用户的 AI 会员订阅充值服务与知识导航。",
+      "sameAs": [
+        "https://github.com/he20000405-pixel"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://guides.chonggrok.com/#website",
+      "url": "https://guides.chonggrok.com/",
+      "name": "ChongGrok AI 会员指南",
+      "inLanguage": ["zh-CN", "en"],
+      "publisher": {"@id": "https://guides.chonggrok.com/#organization"}
+    },
+    {
+      "@type": "{{ page.schema_type | default: 'WebPage' }}",
+      "@id": "{{ page.canonical | default: page.url | absolute_url }}#webpage",
+      "url": "{{ page.canonical | default: page.url | absolute_url }}",
+      "name": {{ page.title | jsonify }},
+      "description": {{ page.description | jsonify }},
+      "inLanguage": "{{ page.lang | default: 'zh-CN' }}",
+      "isPartOf": {"@id": "https://guides.chonggrok.com/#website"},
+      "about": {"@id": "https://guides.chonggrok.com/#organization"},
+      "dateModified": "{{ page.last_modified_at | default: '2026-07-31' }}"
+    }
+  ]
+}
+</script>
+

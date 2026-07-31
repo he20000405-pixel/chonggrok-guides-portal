@@ -1,0 +1,49 @@
+<a class="skip-link" href="#main-content">跳到正文</a>
+<header class="site-header">
+  <div class="shell header-inner">
+    <a class="brand" href="/" aria-label="ChongGrok AI 会员指南首页">
+      <span class="brand-mark" aria-hidden="true">CG</span>
+      <span class="brand-copy">
+        <span>ChongGrok</span>
+        <small>AI 会员指南</small>
+      </span>
+    </a>
+    <nav class="desktop-nav" aria-label="主导航">
+      <a href="/" {% if page.current == "home" %}aria-current="page"{% endif %}>首页</a>
+      <a href="/products/" {% if page.current == "products" %}aria-current="page"{% endif %}>产品</a>
+      <a href="/how-it-works/" {% if page.current == "flow" %}aria-current="page"{% endif %}>服务流程</a>
+      <a href="/security/" {% if page.current == "security" %}aria-current="page"{% endif %}>安全边界</a>
+      <a href="/knowledge/" {% if page.current == "knowledge" %}aria-current="page"{% endif %}>知识目录</a>
+      <a href="/about/" {% if page.current == "about" %}aria-current="page"{% endif %}>关于</a>
+      <a href="/en/" lang="en" {% if page.current == "en" %}aria-current="page"{% endif %}>English</a>
+    </nav>
+    <button class="menu-button" type="button" data-menu-open aria-label="打开导航菜单" aria-controls="mobile-drawer" aria-expanded="false">
+      <i data-lucide="menu"></i>
+    </button>
+  </div>
+</header>
+<div class="drawer" id="mobile-drawer" data-drawer aria-hidden="true">
+  <button class="drawer-backdrop" type="button" data-menu-close aria-label="关闭导航菜单"></button>
+  <div class="drawer-panel" role="dialog" aria-modal="true" aria-label="移动端导航">
+    <div class="drawer-top">
+      <span class="brand">
+        <span class="brand-mark" aria-hidden="true">CG</span>
+        <span>ChongGrok</span>
+      </span>
+      <button class="drawer-close" type="button" data-menu-close aria-label="关闭导航菜单">
+        <i data-lucide="x"></i>
+      </button>
+    </div>
+    <nav class="drawer-nav" aria-label="移动端主导航">
+      <a href="/" {% if page.current == "home" %}aria-current="page"{% endif %}>首页</a>
+      <a href="/products/" {% if page.current == "products" %}aria-current="page"{% endif %}>产品</a>
+      <a href="/how-it-works/" {% if page.current == "flow" %}aria-current="page"{% endif %}>服务流程</a>
+      <a href="/security/" {% if page.current == "security" %}aria-current="page"{% endif %}>安全边界</a>
+      <a href="/knowledge/" {% if page.current == "knowledge" %}aria-current="page"{% endif %}>知识目录</a>
+      <a href="/editorial-policy/" {% if page.current == "editorial" %}aria-current="page"{% endif %}>编辑政策</a>
+      <a href="/about/" {% if page.current == "about" %}aria-current="page"{% endif %}>关于</a>
+      <a href="/en/" lang="en" {% if page.current == "en" %}aria-current="page"{% endif %}>English</a>
+    </nav>
+  </div>
+</div>
+

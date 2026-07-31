@@ -1,0 +1,18 @@
+title: "ChongGrok AI 会员指南"
+description: "ChatGPT、Grok、Claude 与 Gemini 会员升级流程、账号资料边界和知识导航。"
+url: "https://guides.chonggrok.com"
+baseurl: ""
+lang: "zh-CN"
+timezone: "Asia/Shanghai"
+permalink: pretty
+
+include:
+  - "_headers"
+
+exclude:
+  - "README.md"
+  - "PUBLISHING.md"
+  - "scripts"
+  - "tmp"
+  - "vendor"
+

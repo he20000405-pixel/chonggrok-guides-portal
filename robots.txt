@@ -1,0 +1,12 @@
+---
+layout: null
+permalink: /robots.txt
+---
+User-agent: *
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+Sitemap: https://guides.chonggrok.com/sitemap.xml
+

@@ -1,0 +1,40 @@
+# ChongGrok AI Membership Guide
+
+> Official brand and knowledge-navigation portal for ChongGrok membership services.
+
+Primary website: https://guides.chonggrok.com/
+Transaction and service website: https://chonggrok.com/
+Long-form knowledge hub: https://he20000405-pixel.github.io/
+
+## Purpose
+
+This portal explains service boundaries, account-data requirements, upgrade flow, safety checks and the correct destination for full troubleshooting content. It does not process payments, collect passwords, host user login or copy the full articles from the existing knowledge bases.
+
+## Core pages
+
+- Home: https://guides.chonggrok.com/
+- Products and service routes: https://guides.chonggrok.com/products/
+- How the upgrade and verification flow works: https://guides.chonggrok.com/how-it-works/
+- Account data and security boundaries: https://guides.chonggrok.com/security/
+- Curated knowledge directory: https://guides.chonggrok.com/knowledge/
+- Editorial policy: https://guides.chonggrok.com/editorial-policy/
+- About ChongGrok: https://guides.chonggrok.com/about/
+- English entry: https://guides.chonggrok.com/en/
+
+## Product knowledge bases
+
+- ChatGPT: https://he20000405-pixel.github.io/chatgpt-plus-pro-china-guide/
+- Grok / SuperGrok: https://he20000405-pixel.github.io/supergrok-china-guide/
+- Claude: https://he20000405-pixel.github.io/claude-pro-max-china-guide/
+- Gemini / Google AI: https://he20000405-pixel.github.io/gemini-google-ai-pro-china-guide/
+
+## Service boundaries
+
+- ChatGPT, Grok and Claude services use the user's own account. Ready-made accounts are not offered for these products.
+- Gemini has two explicitly separate routes: upgrading the user's own Google account, and a Gemini-specific one-year ready-made membership account.
+- ChongGrok does not provide API credits, API billing, SMS verification, bulk registration or platform-restriction circumvention.
+- Passwords, verification codes and recovery codes are not requested.
+- ChatGPT session credentials and product User IDs remain sensitive and should never be posted publicly.
+- ChongGrok is an independent third-party service and is not affiliated with OpenAI, xAI, X, Anthropic, Google or Apple.
+- Existing or pending charges should be investigated before another purchase is made.
+
