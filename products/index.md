@@ -9,79 +9,30 @@ schema_type: CollectionPage
 ---
 
 <section class="page-hero">
-  <div class="shell">
+  <div class="shell page-hero-grid">
+    <div>
     <p class="eyebrow">Products</p>
     <h1>选择适合你当前账号的 AI 会员服务</h1>
     <p>ChongGrok 支持 ChatGPT、Grok、Claude 与 Gemini 会员服务。每个产品的套餐、所需资料和交付方式不同，付款前请先查看对应产品页。</p>
+    </div>
+    <div class="page-note">本页不固定展示价格。请进入产品页查看当前方案、交付方式和售后说明。</div>
   </div>
 </section>
 
 <section class="section">
   <div class="shell">
-    <div class="product-detail-list">
-      <article class="product-detail" id="chatgpt" data-product="chatgpt">
-        <div class="product-detail-heading"><span class="product-kicker">OpenAI / ChatGPT</span><h2>ChatGPT 会员</h2></div>
-        <div class="product-detail-body">
-          <p>适合希望在自己 ChatGPT 账号上使用 Plus 或 Pro 会员的用户。Plus 可根据产品页面完成购买和自助核销；Pro 方案由客服在付款前确认账号状态与交付条件。</p>
-          <dl class="fact-list">
-            <div><dt>账号类型</dt><dd>用户自己的 ChatGPT 账号</dd></div>
-            <div><dt>所需资料</dt><dd>Plus 流程使用 session 类凭证，不需要密码；Pro 以客服当前说明为准</dd></div>
-            <div><dt>完成验收</dt><dd>回 ChatGPT 官方账户页面检查会员档位与状态</dd></div>
-          </dl>
-          <div class="button-row">
-            <a class="button button-primary" href="https://chonggrok.com/chatgpt?utm_source=guides_chonggrok&amp;utm_medium=referral&amp;utm_campaign=products_chatgpt" rel="noopener">查看 ChatGPT 方案 <i data-lucide="arrow-up-right"></i></a>
-            <a class="button" href="https://he20000405-pixel.github.io/chatgpt-plus-pro-china-guide/" rel="noopener">阅读知识指南</a>
-          </div>
-        </div>
-      </article>
+    <div class="product-grid product-grid-detailed">
+      <article class="product-card" id="chatgpt" data-product="chatgpt"><div class="product-card-body"><div class="product-card-heading"><span class="product-icon">GPT</span><h2>ChatGPT 会员</h2></div><p>适合日常对话、文件分析、联网检索、写作和代码辅助。</p><ul class="benefits"><li>Plus 可按页面自助购买和核销</li><li>Pro 方案由客服先核对条件</li><li>不索要密码、验证码或恢复码</li></ul></div><div class="product-card-actions"><a href="https://chonggrok.com/chatgpt?utm_source=guides_chonggrok&amp;utm_medium=referral&amp;utm_campaign=products_chatgpt" rel="noopener">查看实时方案</a><a href="https://he20000405-pixel.github.io/chatgpt-plus-pro-china-guide/" rel="noopener">进入知识指南</a></div></article>
+      <article class="product-card" id="grok" data-product="grok"><div class="product-card-body"><div class="product-card-heading"><span class="product-icon">GRK</span><h2>SuperGrok</h2></div><p>适合 Grok 对话、检索、Grok Build 和高频使用场景。</p><ul class="benefits"><li>使用用户自己的 Grok 账号</li><li>按服务流程提交 User ID</li><li>付款后回官方页面验收权益</li></ul></div><div class="product-card-actions"><a href="https://chonggrok.com/supergrok?utm_source=guides_chonggrok&amp;utm_medium=referral&amp;utm_campaign=products_grok" rel="noopener">查看实时方案</a><a href="https://he20000405-pixel.github.io/supergrok-china-guide/" rel="noopener">进入知识指南</a></div></article>
+      <article class="product-card" id="claude" data-product="claude"><div class="product-card-body"><div class="product-card-heading"><span class="product-icon">CLD</span><h2>Claude Pro / Max</h2></div><p>适合研究、长文本处理、专业写作和 Claude Code。</p><ul class="benefits"><li>Pro / Max 方案可选</li><li>账号状态与资料先由客服确认</li><li>User ID 是履约标识而非密码</li></ul></div><div class="product-card-actions"><a href="https://chonggrok.com/claude?utm_source=guides_chonggrok&amp;utm_medium=referral&amp;utm_campaign=products_claude" rel="noopener">查看实时方案</a><a href="https://he20000405-pixel.github.io/claude-pro-max-china-guide/" rel="noopener">进入知识指南</a></div></article>
+      <article class="product-card" id="gemini" data-product="gemini"><div class="product-card-body"><div class="product-card-heading"><span class="product-icon">GEM</span><h2>Gemini / Google AI</h2></div><p>适合 Google AI 生态相关的会员与账号服务需求。</p><ul class="benefits"><li>服务类型由产品页分别说明</li><li>交付方式以实时页面为准</li><li>购买前确认账号和售后规则</li></ul></div><div class="product-card-actions"><a href="https://chonggrok.com/gemini?utm_source=guides_chonggrok&amp;utm_medium=referral&amp;utm_campaign=products_gemini" rel="noopener">查看实时方案</a><a href="https://he20000405-pixel.github.io/gemini-google-ai-pro-china-guide/" rel="noopener">进入知识指南</a></div></article>
+    </div>
 
-      <article class="product-detail" id="grok" data-product="grok">
-        <div class="product-detail-heading"><span class="product-kicker">xAI / Grok</span><h2>SuperGrok</h2></div>
-        <div class="product-detail-body">
-          <p>适合希望在自己 Grok 账号上开通 SuperGrok 的用户。提交前应确认账号能够正常登录，并准确核对目标账号的 Grok User ID。</p>
-          <dl class="fact-list">
-            <div><dt>账号类型</dt><dd>用户自己的 Grok 账号</dd></div>
-            <div><dt>所需资料</dt><dd>Grok User ID；它是账号标识，不是密码</dd></div>
-            <div><dt>完成验收</dt><dd>回 Grok 官方账户与订阅页面检查会员状态</dd></div>
-          </dl>
-          <div class="button-row">
-            <a class="button button-primary" href="https://chonggrok.com/supergrok?utm_source=guides_chonggrok&amp;utm_medium=referral&amp;utm_campaign=products_grok" rel="noopener">查看 SuperGrok 方案 <i data-lucide="arrow-up-right"></i></a>
-            <a class="button" href="https://he20000405-pixel.github.io/supergrok-china-guide/" rel="noopener">阅读知识指南</a>
-          </div>
-        </div>
-      </article>
-
-      <article class="product-detail" id="claude" data-product="claude">
-        <div class="product-detail-heading"><span class="product-kicker">Anthropic / Claude</span><h2>Claude Pro / Max</h2></div>
-        <div class="product-detail-body">
-          <p>适合希望在自己 Claude 账号上使用 Pro 或 Max 会员的用户。账号状态、目标套餐和当前可处理范围应在付款前确认。</p>
-          <dl class="fact-list">
-            <div><dt>账号类型</dt><dd>用户自己的 Claude 账号</dd></div>
-            <div><dt>所需资料</dt><dd>按客服说明核对 User ID；它是 ChongGrok 履约标识，不是 Anthropic 官方订阅要求</dd></div>
-            <div><dt>完成验收</dt><dd>回 Claude 官方计划与 Billing 页面检查状态</dd></div>
-          </dl>
-          <div class="button-row">
-            <a class="button button-primary" href="https://chonggrok.com/claude?utm_source=guides_chonggrok&amp;utm_medium=referral&amp;utm_campaign=products_claude" rel="noopener">查看 Claude 方案 <i data-lucide="arrow-up-right"></i></a>
-            <a class="button" href="https://he20000405-pixel.github.io/claude-pro-max-china-guide/" rel="noopener">阅读知识指南</a>
-          </div>
-        </div>
-      </article>
-
-      <article class="product-detail" id="gemini" data-product="gemini">
-        <div class="product-detail-heading"><span class="product-kicker">Google / Gemini</span><h2>Gemini / Google AI</h2></div>
-        <div class="product-detail-body">
-          <p>Gemini / Google AI 提供多种服务方式，包括用户自有账号相关服务与产品页明确标注的账号交付方案。账号类型、交付方式、可用期限和售后规则，以产品页实时说明为准。</p>
-          <dl class="fact-list">
-            <div><dt>账号类型</dt><dd>按所选方案确认，不同方案不能混用</dd></div>
-            <div><dt>所需资料</dt><dd>由产品页或客服逐单说明，不固定宣称统一凭证</dd></div>
-            <div><dt>完成验收</dt><dd>按对应 Google 账号与交付说明检查会员权益</dd></div>
-          </dl>
-          <div class="button-row">
-            <a class="button button-primary" href="https://chonggrok.com/gemini?utm_source=guides_chonggrok&amp;utm_medium=referral&amp;utm_campaign=products_gemini" rel="noopener">查看 Gemini 方案 <i data-lucide="arrow-up-right"></i></a>
-            <a class="button" href="https://he20000405-pixel.github.io/gemini-google-ai-pro-china-guide/" rel="noopener">阅读知识指南</a>
-          </div>
-        </div>
-      </article>
+    <div class="service-summary">
+      <div><strong>支付方式</strong><span>支付宝或微信人民币付款</span></div>
+      <div><strong>账号归属</strong><span>自有账号服务始终归用户</span></div>
+      <div><strong>资料边界</strong><span>只提交对应订单必要资料</span></div>
+      <div><strong>完成验收</strong><span>回产品官方页面检查会员状态</span></div>
     </div>
 
     <div class="notice notice-spaced">

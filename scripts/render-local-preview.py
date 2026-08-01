@@ -79,8 +79,8 @@ def render_head(page: dict[str, str]) -> str:
         ),
         "{{ page.schema_type | default: 'WebPage' }}": schema_type,
         "{{ page.lang | default: 'zh-CN' }}": language,
-        "{{ page.last_modified_at | default: '2026-07-31' }}": page.get(
-            "last_modified_at", "2026-07-31"
+        "{{ page.last_modified_at | default: '2026-08-01' }}": page.get(
+            "last_modified_at", "2026-08-01"
         ),
     }
     for token, value in replacements.items():

@@ -1,6 +1,6 @@
-# ChongGrok AI Membership Services and Guides
+# ChongGrok AI Membership Recharge Services and Guides
 
-> ChongGrok provides AI membership assistance for ChatGPT, Grok, Claude and Gemini, with Chinese payment options, account-safety guidance and product-specific troubleshooting resources.
+> ChongGrok provides ChatGPT, Grok, Claude and Gemini membership recharge assistance with Alipay or WeChat Pay, account-safety guidance and product-specific troubleshooting resources.
 
 Official guide portal: https://guides.chonggrok.com/
 Service website: https://chonggrok.com/

@@ -14,28 +14,32 @@ schema_type: CollectionPage
   <div class="shell hero-grid">
     <div class="hero-copy">
       <p class="eyebrow">ChongGrok · AI membership assistance</p>
-      <h1>Upgrade AI memberships with Chinese payment methods</h1>
-      <p class="hero-lead">ChongGrok supports ChatGPT, Grok, Claude and Gemini membership services. Customers can use Alipay or WeChat Pay, review the required account data before submission, and verify the membership on the provider's official page.</p>
+      <h1>ChatGPT, Grok, Claude and Gemini membership services</h1>
+      <p class="hero-value">Chinese payment methods for the account you use</p>
+      <p class="hero-lead">Use Alipay or WeChat Pay without preparing an overseas card. Review the current service, submit only the required account data, and verify the membership on the provider's official page.</p>
       <div class="hero-actions">
         <a class="button button-primary" href="https://chonggrok.com/?utm_source=guides_chonggrok&amp;utm_medium=referral&amp;utm_campaign=en_hero" rel="noopener">View current services <i data-lucide="arrow-up-right"></i></a>
         <a class="button" href="/knowledge/">Open knowledge guides <i data-lucide="book-open"></i></a>
       </div>
     </div>
-    <div class="hero-product-list" aria-label="Supported AI membership services">
-      <a href="#en-products"><span>ChatGPT</span><small>Plus / Pro</small><i data-lucide="arrow-down"></i></a>
-      <a href="#en-products"><span>Grok</span><small>SuperGrok</small><i data-lucide="arrow-down"></i></a>
-      <a href="#en-products"><span>Claude</span><small>Pro / Max</small><i data-lucide="arrow-down"></i></a>
-      <a href="#en-products"><span>Gemini</span><small>Google AI</small><i data-lucide="arrow-down"></i></a>
-    </div>
+    <aside class="hero-panel" aria-label="Supported AI membership services">
+      <div class="hero-panel-top"><strong>Choose a product</strong><span>Four separate services</span></div>
+      <div class="mini-products">
+        <a class="mini-product" data-product="chatgpt" href="#en-products"><span class="product-icon">GPT</span><span><strong>ChatGPT</strong><small>Plus / Pro</small></span></a>
+        <a class="mini-product" data-product="grok" href="#en-products"><span class="product-icon">GRK</span><span><strong>Grok</strong><small>SuperGrok</small></span></a>
+        <a class="mini-product" data-product="claude" href="#en-products"><span class="product-icon">CLD</span><span><strong>Claude</strong><small>Pro / Max</small></span></a>
+        <a class="mini-product" data-product="gemini" href="#en-products"><span class="product-icon">GEM</span><span><strong>Gemini</strong><small>Google AI</small></span></a>
+      </div>
+    </aside>
   </div>
 </section>
 
 <section class="trust-band" aria-label="Service principles">
   <div class="shell trust-grid">
-    <div class="trust-item"><i data-lucide="wallet-cards"></i><div><strong>Chinese payments</strong><span>Alipay and WeChat Pay</span></div></div>
-    <div class="trust-item"><i data-lucide="key-round"></i><div><strong>No password request</strong><span>No codes or recovery data</span></div></div>
-    <div class="trust-item"><i data-lucide="user-round-check"></i><div><strong>Account clarity</strong><span>Check the target account first</span></div></div>
-    <div class="trust-item"><i data-lucide="messages-square"></i><div><strong>Order support</strong><span>Evidence-based issue checks</span></div></div>
+    <div class="trust-item"><span class="trust-symbol" aria-hidden="true"><i data-lucide="wallet-cards"></i></span><div><strong>Chinese payments</strong><span>Alipay and WeChat Pay</span></div></div>
+    <div class="trust-item"><span class="trust-symbol" aria-hidden="true"><i data-lucide="key-round"></i></span><div><strong>No password request</strong><span>No codes or recovery data</span></div></div>
+    <div class="trust-item"><span class="trust-symbol" aria-hidden="true"><i data-lucide="user-round-check"></i></span><div><strong>Account clarity</strong><span>Check the target account first</span></div></div>
+    <div class="trust-item"><span class="trust-symbol" aria-hidden="true"><i data-lucide="messages-square"></i></span><div><strong>Order support</strong><span>Evidence-based issue checks</span></div></div>
   </div>
 </section>
 
