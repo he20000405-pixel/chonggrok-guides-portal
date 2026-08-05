@@ -1081,6 +1081,33 @@ details p {
   font-size: 14px;
 }
 
+.directory-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: -12px 0 22px;
+}
+
+.directory-filter {
+  min-height: 36px;
+  padding: 7px 12px;
+  border: 1px solid var(--line-strong);
+  border-radius: 6px;
+  color: var(--muted);
+  background: #fff;
+  font: inherit;
+  font-size: 13px;
+  font-weight: 750;
+  cursor: pointer;
+}
+
+.directory-filter:hover,
+.directory-filter.is-active {
+  color: #fff;
+  border-color: var(--brand);
+  background: var(--brand);
+}
+
 .directory-list {
   display: grid;
   gap: 12px;
@@ -1117,6 +1144,14 @@ details p {
   margin: 0;
   color: var(--muted);
   font-size: 14px;
+}
+
+.directory-meta {
+  display: block;
+  margin-top: 7px;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 700;
 }
 
 .directory-item a {

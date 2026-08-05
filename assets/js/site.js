@@ -71,13 +71,18 @@
   const directoryInput = document.querySelector("[data-directory-search]");
   const directoryItems = [...document.querySelectorAll("[data-directory-item]")];
   const directoryCount = document.querySelector("[data-directory-count]");
+  const directoryFilters = [...document.querySelectorAll("[data-directory-filter]")];
+  let activeDirectoryFilter = "all";
 
   const filterDirectory = () => {
     const query = directoryInput.value.trim().toLocaleLowerCase();
     let visible = 0;
     directoryItems.forEach((item) => {
       const haystack = item.dataset.search.toLocaleLowerCase();
-      const match = !query || haystack.includes(query);
+      const categories = (item.dataset.category || "").split(/\s+/);
+      const matchesQuery = !query || haystack.includes(query);
+      const matchesCategory = activeDirectoryFilter === "all" || categories.includes(activeDirectoryFilter);
+      const match = matchesQuery && matchesCategory;
       item.hidden = !match;
       if (match) visible += 1;
     });
@@ -87,6 +92,13 @@
   };
 
   directoryInput?.addEventListener("input", filterDirectory);
+  directoryFilters.forEach((button) => {
+    button.addEventListener("click", () => {
+      activeDirectoryFilter = button.dataset.directoryFilter || "all";
+      directoryFilters.forEach((item) => item.classList.toggle("is-active", item === button));
+      filterDirectory();
+    });
+  });
   if (directoryInput) filterDirectory();
 
   if (window.lucide) {
