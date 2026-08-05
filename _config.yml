@@ -5,6 +5,7 @@ baseurl: ""
 lang: "zh-CN"
 timezone: "Asia/Shanghai"
 permalink: pretty
+asset_version: "20260805-1"
 
 include:
   - "_headers"
