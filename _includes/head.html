@@ -53,8 +53,8 @@
       "description": {{ page.description | jsonify }},
       "inLanguage": "{{ page.lang | default: 'zh-CN' }}",
       "isPartOf": {"@id": "https://guides.chonggrok.com/#website"},
-      "about": {"@id": "https://guides.chonggrok.com/#organization"},
-      "dateModified": "{{ page.last_modified_at | default: '2026-08-01' }}"
+      "about": {"@id": "https://guides.chonggrok.com/#organization"}{% if page.last_modified_at %},
+      "dateModified": {{ page.last_modified_at | date_to_xmlschema | jsonify }}{% endif %}
     }
   ]
 }

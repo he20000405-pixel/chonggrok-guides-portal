@@ -6,6 +6,7 @@ description: "ChongGrok 支持 ChatGPT、Grok、Claude、Gemini AI 会员订阅�
 permalink: /
 current: home
 schema_type: CollectionPage
+last_modified_at: 2026-10-28
 ---
 
 <section class="hero">
@@ -13,7 +14,7 @@ schema_type: CollectionPage
     <div class="hero-copy">
       <p class="eyebrow">ChongGrok · AI 订阅充值服务</p>
       <h1>ChatGPT、Grok、Claude、Gemini AI 会员充值</h1>
-      <p class="hero-value">国内支付，升级你自己的账号</p>
+      <p class="hero-value">国内支付，按产品核对账号与交付</p>
       <p class="hero-lead">支持支付宝或微信付款，无需自行准备海外信用卡。选择产品后查看实时方案、提交必要资料，并回产品官方页面验收会员状态。</p>
       <div class="hero-actions">
         <a class="button button-primary" href="https://chonggrok.com/?utm_source=guides_chonggrok&amp;utm_medium=referral&amp;utm_campaign=home_hero" rel="noopener">查看实时方案 <i data-lucide="arrow-up-right"></i></a>
@@ -21,11 +22,11 @@ schema_type: CollectionPage
       </div>
     </div>
     <aside class="hero-panel" aria-label="ChongGrok 支持的 AI 会员产品">
-      <div class="hero-panel-top"><strong>选择需要升级的产品</strong><span>四项服务 · 独立说明</span></div>
+      <div class="hero-panel-top"><strong>选择需要升级的产品</strong><span>四类产品 · 分别确认</span></div>
       <div class="mini-products">
         <a class="mini-product" data-product="chatgpt" href="#chatgpt-card"><span class="product-icon">GPT</span><span><strong>ChatGPT</strong><small>Plus / Pro 会员</small></span></a>
-        <a class="mini-product" data-product="grok" href="#grok-card"><span class="product-icon">GRK</span><span><strong>Grok</strong><small>SuperGrok 会员</small></span></a>
-        <a class="mini-product" data-product="claude" href="#claude-card"><span class="product-icon">CLD</span><span><strong>Claude</strong><small>Pro / Max 会员</small></span></a>
+        <a class="mini-product" data-product="grok" href="#grok-card"><span class="product-icon">GRK</span><span><strong>Grok</strong><small>联合会员 / 旧版独立订阅</small></span></a>
+        <a class="mini-product" data-product="claude" href="#claude-card"><span class="product-icon">CLD</span><span><strong>Claude</strong><small>个人 Pro 月度服务</small></span></a>
         <a class="mini-product" data-product="gemini" href="#gemini-card"><span class="product-icon">GEM</span><span><strong>Gemini</strong><small>Google AI 会员</small></span></a>
       </div>
     </aside>
@@ -36,7 +37,7 @@ schema_type: CollectionPage
   <div class="shell trust-grid">
     <div class="trust-item"><span class="trust-symbol" aria-hidden="true"><i data-lucide="wallet-cards"></i></span><div><strong>支付宝 / 微信</strong><span>人民币付款，无需外币卡</span></div></div>
     <div class="trust-item"><span class="trust-symbol" aria-hidden="true"><i data-lucide="key-round"></i></span><div><strong>不索要密码</strong><span>不需要验证码或恢复码</span></div></div>
-    <div class="trust-item"><span class="trust-symbol" aria-hidden="true"><i data-lucide="user-round-check"></i></span><div><strong>账号归用户</strong><span>自有账号服务按产品说明处理</span></div></div>
+    <div class="trust-item"><span class="trust-symbol" aria-hidden="true"><i data-lucide="user-round-check"></i></span><div><strong>账号与交付</strong><span>自有账号与账号交付分别确认</span></div></div>
     <div class="trust-item"><span class="trust-symbol" aria-hidden="true"><i data-lucide="messages-square"></i></span><div><strong>售后对接</strong><span>订单异常有人协助核对</span></div></div>
   </div>
 </section>
@@ -61,20 +62,20 @@ schema_type: CollectionPage
       </article>
       <article class="product-card" id="grok-card" data-product="grok">
         <div class="product-card-body">
-          <div class="product-card-heading"><span class="product-icon">GRK</span><h3>SuperGrok</h3></div>
-          <p>为用户自己的 Grok 账号提供会员订阅协助。</p>
-          <ul class="benefits"><li>按页面选择当前方案</li><li>提交 Grok User ID</li><li>不需要账号密码</li></ul>
+          <div class="product-card-heading"><span class="product-icon">GRK</span><h3>Grok 联合会员与旧版订阅</h3></div>
+          <p>The X Subscription 与旧版 SuperGrok 分开办理，充值不会把旧会员自动转换为联合会员。</p>
+          <ul class="benefits"><li>联合会员：先核对档位、账号与交付条件</li><li>旧版独立订阅：先确认账号资格</li><li>SSO 登录凭据与 User ID 是不同资料</li></ul>
         </div>
         <div class="product-card-actions">
-          <a href="https://chonggrok.com/supergrok?utm_source=guides_chonggrok&amp;utm_medium=referral&amp;utm_campaign=home_grok" rel="noopener">查看实时方案</a>
-          <a href="https://he20000405-pixel.github.io/supergrok-china-guide/" rel="noopener">知识指南 <i data-lucide="book-open"></i></a>
+          <a href="/products/#grok">查看两类 Grok 服务</a>
+          <a href="https://he20000405-pixel.github.io/supergrok-china-guide/guides/x-subscription-grok-bot-guide/" rel="noopener">联合会员与 Grok Bot 指南 <i data-lucide="book-open"></i></a>
         </div>
       </article>
       <article class="product-card" id="claude-card" data-product="claude">
         <div class="product-card-body">
-          <div class="product-card-heading"><span class="product-icon">CLD</span><h3>Claude Pro / Max</h3></div>
+          <div class="product-card-heading"><span class="product-icon">CLD</span><h3>Claude Pro</h3></div>
           <p>适合长文本、研究、写作和 Claude Code 等使用场景。</p>
-          <ul class="benefits"><li>Pro / Max 方案可选</li><li>付款前由客服核对条件</li><li>使用用户自己的账号</li></ul>
+          <ul class="benefits"><li>自有账号个人 Pro 月度开通</li><li>人工通过 iOS 内购办理</li><li>不含 Max、团队席位或 API 额度</li></ul>
         </div>
         <div class="product-card-actions">
           <a href="https://chonggrok.com/claude?utm_source=guides_chonggrok&amp;utm_medium=referral&amp;utm_campaign=home_claude" rel="noopener">查看实时方案</a>
@@ -96,6 +97,8 @@ schema_type: CollectionPage
   </div>
 </section>
 
+<section class="section section-compact"><div class="shell"><div class="notice"><strong>Grok 购买前：</strong>ChongGrok 不办理旧会员转向 X 联合会员。<a href="https://x.ai/pricing" rel="noopener">xAI 定价页</a>说明未授权第三方销售，其他来源的账号可能被暂停或终止；本站服务不代表官方授权。先阅读<a href="/products/#grok">两类服务与资料差异</a>。</div></div></section>
+
 <section class="section section-soft">
   <div class="shell">
     <div class="section-head">
@@ -106,7 +109,7 @@ schema_type: CollectionPage
       <article class="flow-card"><span>01</span><i data-lucide="layout-list"></i><h3>选择产品</h3><p>确认目标账号、套餐和当前订阅状态。</p></article>
       <article class="flow-card"><span>02</span><i data-lucide="credit-card"></i><h3>完成付款</h3><p>使用支付宝或微信，并保存订单和付款记录。</p></article>
       <article class="flow-card"><span>03</span><i data-lucide="send"></i><h3>提交必要资料</h3><p>只按产品流程提交本次服务需要的信息。</p></article>
-      <article class="flow-card"><span>04</span><i data-lucide="badge-check"></i><h3>官方页面验收</h3><p>回原账号检查会员档位、状态和到期信息。</p></article>
+      <article class="flow-card"><span>04</span><i data-lucide="badge-check"></i><h3>官方页面验收</h3><p>回订单对应账号检查会员档位、状态和到期信息。</p></article>
     </div>
     <div class="section-action"><a class="text-link" href="/how-it-works/">查看完整服务流程 <i data-lucide="arrow-right"></i></a></div>
   </div>
@@ -129,7 +132,7 @@ schema_type: CollectionPage
 <section class="section section-compact">
   <div class="shell">
     <div class="safety-panel">
-      <div><p class="eyebrow">安全与边界</p><h2>不需要密码，不代表线上服务没有风险</h2><p>ChongGrok 不索要账号密码、验证码或恢复码。ChatGPT session、Grok User ID 与 Claude User ID 等资料仍需谨慎保管，只应通过确认的流程用于对应订单。</p></div>
+      <div><p class="eyebrow">安全与边界</p><h2>不需要密码，不代表线上服务没有风险</h2><p>ChongGrok 不索要账号密码、验证码或恢复码。ChatGPT session 和 X 联合会员兑换所需 Grok SSO 都属于敏感登录凭据；旧版 Grok User ID 是账号标识。付款前先了解资料用途与风险，不要把“不索要密码”理解为无需登录凭据。</p></div>
       <a class="button" href="/security/">查看安全说明 <i data-lucide="shield-check"></i></a>
     </div>
   </div>
@@ -139,7 +142,7 @@ schema_type: CollectionPage
   <div class="shell faq-section">
     <div><p class="eyebrow">常见问题</p><h2>下单前常见疑问</h2></div>
     <div class="faq-list">
-      <details><summary>ChongGrok 会索要账号密码吗？</summary><p>不会。不同产品可能需要 session 或 User ID 等资料，但不会要求提交密码、验证码或恢复码。</p></details>
+      <details><summary>ChongGrok 会索要账号密码吗？</summary><p>不会。ChatGPT session 与 X 联合会员的 Grok SSO 是敏感登录凭据；旧版 Grok User ID 是账号标识。各流程资料不能混用，密码、验证码和恢复码不要提交。</p></details>
       <details><summary>已经扣款但会员没有生效，可以重新购买吗？</summary><p>不要立即重新购买。应先检查原购买渠道、交易状态、登录账号和订阅权益，避免产生重复订单。</p></details>
       <details><summary>会员功能和额度由谁决定？</summary><p>产品功能、额度、价格和地区可用性由 OpenAI、xAI、Anthropic、Google 等产品方决定，以官方实时页面为准。</p></details>
     </div>
@@ -162,15 +165,15 @@ schema_type: CollectionPage
       "name": "ChongGrok AI 会员服务",
       "itemListElement": [
         {"@type":"ListItem","position":1,"name":"ChatGPT 会员","url":"https://chonggrok.com/chatgpt"},
-        {"@type":"ListItem","position":2,"name":"SuperGrok 会员","url":"https://chonggrok.com/supergrok"},
-        {"@type":"ListItem","position":3,"name":"Claude Pro / Max","url":"https://chonggrok.com/claude"},
+        {"@type":"ListItem","position":2,"name":"Grok 联合会员与旧版订阅","url":"https://guides.chonggrok.com/products/#grok"},
+        {"@type":"ListItem","position":3,"name":"Claude Pro","url":"https://chonggrok.com/claude"},
         {"@type":"ListItem","position":4,"name":"Gemini / Google AI","url":"https://chonggrok.com/gemini"}
       ]
     },
     {
       "@type": "FAQPage",
       "mainEntity": [
-        {"@type":"Question","name":"ChongGrok 会索要账号密码吗？","acceptedAnswer":{"@type":"Answer","text":"不会。不同产品可能需要 session 或 User ID 等资料，但不会要求提交密码、验证码或恢复码。"}},
+        {"@type":"Question","name":"ChongGrok 会索要账号密码吗？","acceptedAnswer":{"@type":"Answer","text":"不会。ChatGPT session 与 X 联合会员的 Grok SSO 是敏感登录凭据；旧版 Grok User ID 是账号标识。各流程资料不能混用，密码、验证码和恢复码不要提交。"}},
         {"@type":"Question","name":"已经扣款但会员没有生效，可以重新购买吗？","acceptedAnswer":{"@type":"Answer","text":"不要立即重新购买。应先检查原购买渠道、交易状态、登录账号和订阅权益，避免产生重复订单。"}},
         {"@type":"Question","name":"会员功能和额度由谁决定？","acceptedAnswer":{"@type":"Answer","text":"产品功能、额度、价格和地区可用性由对应产品方决定，以官方实时页面为准。"}}
       ]

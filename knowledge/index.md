@@ -2,10 +2,11 @@
 layout: default
 title: "AI 会员知识目录：付款、账号与订阅排查"
 seo_title: "AI 会员知识与排障目录"
-description: "按 ChatGPT、Grok、Claude、Gemini 或付款失败、仍显示 Free、续费、账号标识等问题查找对应指南。"
+description: "按 ChatGPT、Grok、Claude、Gemini 或联合会员、Grok Bot、旧版订阅、付款和账号问题查找指南。"
 permalink: /knowledge/
 current: knowledge
 schema_type: CollectionPage
+last_modified_at: 2026-10-28
 ---
 
 <section class="page-hero">
@@ -21,7 +22,7 @@ schema_type: CollectionPage
     <div class="directory-toolbar">
       <label>
         <span class="eyebrow">搜索知识入口</span>
-        <input class="directory-search" type="search" data-directory-search placeholder="例如：Free、续费、User ID、session、403" aria-label="搜索知识入口">
+        <input class="directory-search" type="search" data-directory-search placeholder="例如：联合会员、Grok Bot、Free、SSO、User ID" aria-label="搜索知识入口">
       </label>
       <span class="directory-count" data-directory-count aria-live="polite"></span>
     </div>
@@ -45,14 +46,19 @@ schema_type: CollectionPage
         <div><h2>ChatGPT Plus / Pro 指南</h2><p>套餐选择、session、自助核销、付款失败、仍显示 Free、续费和账号关联问题。</p><span class="directory-meta">套餐 · 付款 · 账号 · 中文与英文</span></div>
         <a class="text-link" href="https://he20000405-pixel.github.io/chatgpt-plus-pro-china-guide/" rel="noopener">查看指南 <i data-lucide="arrow-up-right"></i></a>
       </article>
-      <article class="directory-item" data-directory-item data-category="product payment technical" data-search="grok supergrok user id uuid payment 403 build cli paid free weekly limit subscription">
+      <article class="directory-item" data-directory-item data-category="product payment safety technical" data-search="x subscription grok bot cursor premium 联合会员 旧转新 SSO verify-x verify-grok">
+        <span class="directory-label">联合会员</span>
+        <div><h2>X 联合会员与 Grok Bot 指南</h2><p>分清联合会员、旧版 SuperGrok、Grok Bot 资格、共享用量和兑换资料；ChongGrok 不办理旧会员转换。</p><span class="directory-meta">选型 · 账号 · SSO · 旧版边界</span></div>
+        <a class="text-link" href="https://he20000405-pixel.github.io/supergrok-china-guide/guides/x-subscription-grok-bot-guide/" rel="noopener">查看专题 <i data-lucide="arrow-up-right"></i></a>
+      </article>
+      <article class="directory-item" data-directory-item data-category="product payment technical" data-search="grok supergrok user id uuid payment 403 build cli paid free weekly limit subscription 旧版">
         <span class="directory-label">Grok</span>
-        <div><h2>SuperGrok 指南</h2><p>User ID、充值流程、付款报错、仍显示 Free、周额度、403 与 Grok Build。</p><span class="directory-meta">账号 · 付款 · 周额度 · 开发工具</span></div>
+        <div><h2>Grok 与旧版 SuperGrok 指南</h2><p>旧版账号、User ID、付款排障、周额度与工具使用；联合会员请先阅读上方新专题。</p><span class="directory-meta">账号 · 付款 · 周额度 · 开发工具</span></div>
         <a class="text-link" href="https://he20000405-pixel.github.io/supergrok-china-guide/" rel="noopener">查看指南 <i data-lucide="arrow-up-right"></i></a>
       </article>
       <article class="directory-item" data-directory-item data-category="product payment technical" data-search="claude pro max user id payment declined paid free renewal claude code">
         <span class="directory-label">Claude</span>
-        <div><h2>Claude Pro / Max 指南</h2><p>套餐选择、User ID、银行卡拒付、订阅未生效、续费与 Claude Code。</p><span class="directory-meta">套餐 · 付款 · User ID · Claude Code</span></div>
+        <div><h2>Claude 套餐与排障指南</h2><p>包含 Pro / Max 的产品比较和 Claude Code 等知识；这不表示 ChongGrok 提供 Max，当前商家服务仅为个人 Pro 月度开通。</p><span class="directory-meta">套餐知识 · 付款 · Claude Code</span></div>
         <a class="text-link" href="https://he20000405-pixel.github.io/claude-pro-max-china-guide/" rel="noopener">查看指南 <i data-lucide="arrow-up-right"></i></a>
       </article>
       <article class="directory-item" data-directory-item data-category="product payment safety" data-search="gemini google ai pro account payment declined paid free renewal google play account">
@@ -78,16 +84,72 @@ schema_type: CollectionPage
     </div>
 
     <div class="notice notice-spaced">
-      <strong>需要订单售后？</strong>准备订单号、卡密、付款时间和脱敏截图，再从 ChongGrok 主站客服入口联系。不要在公开页面粘贴 session、User ID 或其他账号资料。
+      <strong>需要订单售后？</strong>准备订单号、卡密、付款时间和脱敏截图，再从 ChongGrok 主站客服入口联系。不要在公开页面粘贴 session、SSO、User ID 或其他账号资料。
     </div>
   </div>
 </section>
 
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"ItemList","name":"ChongGrok AI 会员知识目录","numberOfItems":8,"itemListElement":[
-{"@type":"ListItem","position":1,"name":"AI 会员知识中心","url":"https://he20000405-pixel.github.io/"},
-{"@type":"ListItem","position":2,"name":"ChatGPT Plus / Pro 指南","url":"https://he20000405-pixel.github.io/chatgpt-plus-pro-china-guide/"},
-{"@type":"ListItem","position":3,"name":"SuperGrok 指南","url":"https://he20000405-pixel.github.io/supergrok-china-guide/"},
-{"@type":"ListItem","position":4,"name":"Claude Pro / Max 指南","url":"https://he20000405-pixel.github.io/claude-pro-max-china-guide/"},
-{"@type":"ListItem","position":5,"name":"Gemini / Google AI 指南","url":"https://he20000405-pixel.github.io/gemini-google-ai-pro-china-guide/"}]}
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "ChongGrok AI 会员知识目录",
+  "numberOfItems": 9,
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "AI 会员知识中心",
+      "url": "https://he20000405-pixel.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "ChatGPT Plus / Pro 指南",
+      "url": "https://he20000405-pixel.github.io/chatgpt-plus-pro-china-guide/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "X 联合会员与 Grok Bot 指南",
+      "url": "https://he20000405-pixel.github.io/supergrok-china-guide/guides/x-subscription-grok-bot-guide/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "Grok 与旧版 SuperGrok 指南",
+      "url": "https://he20000405-pixel.github.io/supergrok-china-guide/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "name": "Claude 套餐与排障指南",
+      "url": "https://he20000405-pixel.github.io/claude-pro-max-china-guide/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 6,
+      "name": "Gemini / Google AI 指南",
+      "url": "https://he20000405-pixel.github.io/gemini-google-ai-pro-china-guide/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 7,
+      "name": "AI 会员订阅安全与验收清单",
+      "url": "https://he20000405-pixel.github.io/resources/ai-membership-safety-checklist/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 8,
+      "name": "AI 订阅付款排障决策树",
+      "url": "https://he20000405-pixel.github.io/resources/ai-subscription-payment-troubleshooting/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 9,
+      "name": "AI 工具实用教程",
+      "url": "https://he20000405-pixel.github.io/labs/"
+    }
+  ]
+}
 </script>

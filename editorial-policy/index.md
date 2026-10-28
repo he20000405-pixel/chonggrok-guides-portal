@@ -5,6 +5,7 @@ seo_title: "ChongGrok 编辑政策"
 description: "ChongGrok 对官方来源、事实核验、操作测试、纠错更新、商业披露和用户隐私的公开说明。"
 permalink: /editorial-policy/
 current: editorial
+last_modified_at: 2026-10-28
 ---
 
 <section class="page-hero">
@@ -37,14 +38,14 @@ current: editorial
 
       <h2 id="commercial">商业披露</h2>
       <p>ChongGrok 通过 AI 会员订阅协助服务获得收入。页面中的“查看方案”等按钮会进入 chonggrok.com 对应服务页；知识与排障内容仍应先帮助读者判断问题。已经扣款、交易待处理或已有有效订阅的用户，不应被引导重复购买。</p>
-      <p>ChongGrok 与 OpenAI、xAI、X、Anthropic、Google、Apple 等公司没有隶属、代理或官方合作关系。</p>
+      <p>ChongGrok 与 OpenAI、xAI、X、Anthropic、Google、Apple 等公司没有隶属、代理或官方合作关系。介绍 Grok 商业服务时，同时披露 <a href="https://x.ai/pricing" rel="noopener">xAI 关于未授权第三方销售及账号可能被暂停或终止的说明</a>。</p>
 
       <h2 id="corrections">更新与纠错</h2>
-      <p>AI 产品的功能、价格、额度和地区规则可能变化。涉及实时事实的内容会标注来源或核验日期。发现影响用户决策或账号安全的错误时，我们会优先更正。</p>
+      <p>AI 产品的功能、价格、额度和地区规则可能变化。涉及实时事实的内容会标注来源或核验日期；内容更新日期只反映实际编辑，不代表全部功能已重新实测。发现影响用户决策或账号安全的错误时，我们会优先更正。</p>
 
       <h2 id="privacy">隐私与禁止内容</h2>
       <ul class="check-list">
-        <li>不公开用户密码、验证码、恢复码、session、User ID、订单或付款资料。</li>
+        <li>不公开用户密码、验证码、恢复码、session、SSO、User ID、订单或付款资料。</li>
         <li>不使用虚构好评、评分、身份或用户证言。</li>
         <li>不作绝对安全、保证到账、保证恢复、最低价或官方合作承诺。</li>
         <li>不提供 API 充值、API 额度、接码、批量注册或规避平台限制教程。</li>
