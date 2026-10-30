@@ -611,6 +611,10 @@ h3 {
   border-top: 1px solid var(--line);
 }
 
+.product-card-actions.product-card-actions-single {
+  grid-template-columns: 1fr;
+}
+
 .product-card-actions a {
   display: inline-flex;
   min-height: 54px;
