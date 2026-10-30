@@ -6,7 +6,7 @@ description: "查看 ChongGrok 的 ChatGPT、X 联合会员、旧版 SuperGrok�
 permalink: /products/
 current: products
 schema_type: CollectionPage
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 ---
 
 <section class="page-hero">
@@ -23,8 +23,14 @@ last_modified_at: 2026-10-28
 <section class="section">
   <div class="shell">
     <div class="product-grid product-grid-detailed">
-      <article class="product-card" id="chatgpt" data-product="chatgpt"><div class="product-card-body"><div class="product-card-heading"><span class="product-icon">GPT</span><h2>ChatGPT 会员</h2></div><p>适合日常对话、文件分析、联网检索、写作和代码辅助。</p><ul class="benefits"><li>Plus 可按页面自助购买和核销</li><li>Pro 方案由客服先核对条件</li><li>不索要密码、验证码或恢复码</li></ul></div><div class="product-card-actions"><a href="https://chonggrok.com/chatgpt?utm_source=guides_chonggrok&amp;utm_medium=referral&amp;utm_campaign=products_chatgpt" rel="noopener">查看实时方案</a><a href="https://he20000405-pixel.github.io/chatgpt-plus-pro-china-guide/" rel="noopener">进入知识指南</a></div></article>
-      <article class="product-card" id="grok" data-product="grok"><div class="product-card-body"><div class="product-card-heading"><span class="product-icon">GRK</span><h2>X 联合会员</h2></div><p>The X Subscription 按档位提供 Grok、Cursor 与 X 相关权益，Grok Bot 资格与用量以官方说明及账号为准。</p><ul class="benefits"><li>先确认档位、现有订阅与交付条件</li><li>兑换入口为 /verify-x，使用卡密与 Grok SSO</li><li>SSO 是敏感登录凭据，不是 User ID</li><li>ChongGrok 不办理旧会员转换为联合会员</li></ul></div><div class="product-card-actions"><a href="https://chonggrok.com/x-subscription?utm_source=guides_chonggrok&amp;utm_medium=referral&amp;utm_campaign=products_x_subscription" rel="noopener">查看联合会员方案</a><a href="https://he20000405-pixel.github.io/supergrok-china-guide/guides/x-subscription-grok-bot-guide/" rel="noopener">联合会员与 Grok Bot 指南</a></div></article>
+      <article class="product-card" id="chatgpt" data-product="chatgpt"><div class="product-card-body"><div class="product-card-heading"><span class="product-icon">GPT</span><h2>ChatGPT 会员</h2></div><p>适合日常对话、文件分析、联网检索、写作和代码辅助。</p><ul class="benefits"><li>Plus 可按页面自助购买和核销</li><li>Pro 方案由客服先核对条件</li><li>不索要密码、验证码或恢复码</li></ul>
+<h3 class="notice-spaced">ChatGPT 相关阅读</h3>
+{% include featured-guide-links.html product="ChatGPT" %}
+</div><div class="product-card-actions"><a href="https://chonggrok.com/chatgpt?utm_source=guides_chonggrok&amp;utm_medium=referral&amp;utm_campaign=products_chatgpt" rel="noopener">查看实时方案</a><a href="https://he20000405-pixel.github.io/chatgpt-plus-pro-china-guide/" rel="noopener">进入知识指南</a></div></article>
+      <article class="product-card" id="grok" data-product="grok"><div class="product-card-body"><div class="product-card-heading"><span class="product-icon">GRK</span><h2>X 联合会员</h2></div><p>The X Subscription 按档位提供 Grok、Cursor 与 X 相关权益，Grok Bot 资格与用量以官方说明及账号为准。</p><ul class="benefits"><li>先确认档位、现有订阅与交付条件</li><li>兑换入口为 /verify-x，使用卡密与 Grok SSO</li><li>SSO 是敏感登录凭据，不是 User ID</li><li>ChongGrok 不办理旧会员转换为联合会员</li></ul>
+<h3 class="notice-spaced">Grok 相关阅读</h3>
+{% include featured-guide-links.html product="Grok" %}
+</div><div class="product-card-actions"><a href="https://chonggrok.com/x-subscription?utm_source=guides_chonggrok&amp;utm_medium=referral&amp;utm_campaign=products_x_subscription" rel="noopener">查看联合会员方案</a><a href="https://he20000405-pixel.github.io/supergrok-china-guide/guides/x-subscription-grok-bot-guide/" rel="noopener">联合会员与 Grok Bot 指南</a></div></article>
       <article class="product-card" id="supergrok" data-product="grok"><div class="product-card-body"><div class="product-card-heading"><span class="product-icon">GRK</span><h2>旧版 SuperGrok 独立订阅</h2></div><p>面向符合条件的旧版账号提供 1 个月或 3 个月充值；先核对现有订阅，不能把它当作新联合会员。</p><ul class="benefits"><li>兑换入口为 /verify-grok</li><li>提交卡密与 Grok User ID，不提交完整 session</li><li>不会自动获得 Cursor 或 X 联合权益</li><li>回原 Grok 账号核对订阅与有效期</li></ul></div><div class="product-card-actions"><a href="https://chonggrok.com/supergrok?utm_source=guides_chonggrok&amp;utm_medium=referral&amp;utm_campaign=products_legacy_grok" rel="noopener">查看旧版服务条件</a><a href="https://he20000405-pixel.github.io/supergrok-china-guide/" rel="noopener">进入 Grok 知识库</a></div></article>
       <article class="product-card" id="claude" data-product="claude"><div class="product-card-body"><div class="product-card-heading"><span class="product-icon">CLD</span><h2>Claude Pro</h2></div><p>适合研究、长文本处理、专业写作和 Claude Code。</p><ul class="benefits"><li>人工通过 iOS 内购开通自有账号个人 Pro 月度订阅</li><li>不含 Max、团队席位或 API 额度</li><li>账号资格、交付资料与售后先确认</li><li>成功开通后的官方风控封号不提供质保</li></ul></div><div class="product-card-actions"><a href="https://chonggrok.com/claude?utm_source=guides_chonggrok&amp;utm_medium=referral&amp;utm_campaign=products_claude" rel="noopener">查看实时方案</a><a href="https://he20000405-pixel.github.io/claude-pro-max-china-guide/" rel="noopener">进入知识指南</a></div></article>
       <article class="product-card" id="gemini" data-product="gemini"><div class="product-card-body"><div class="product-card-heading"><span class="product-icon">GEM</span><h2>Gemini / Google AI</h2></div><p>适合 Google AI 生态相关的会员与账号服务需求。</p><ul class="benefits"><li>服务类型由产品页分别说明</li><li>交付方式以实时页面为准</li><li>购买前确认账号和售后规则</li></ul></div><div class="product-card-actions"><a href="https://chonggrok.com/gemini?utm_source=guides_chonggrok&amp;utm_medium=referral&amp;utm_campaign=products_gemini" rel="noopener">查看实时方案</a><a href="https://he20000405-pixel.github.io/gemini-google-ai-pro-china-guide/" rel="noopener">进入知识指南</a></div></article>
@@ -60,3 +66,5 @@ last_modified_at: 2026-10-28
 {"@type":"ListItem","position":4,"name":"Claude Pro","url":"https://guides.chonggrok.com/products/#claude"},
 {"@type":"ListItem","position":5,"name":"Gemini / Google AI","url":"https://guides.chonggrok.com/products/#gemini"}]}
 </script>
+
+{% include featured-guide-schema.html %}

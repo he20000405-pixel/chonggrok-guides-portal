@@ -1,0 +1,13 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": {% if include.lang == 'en' %}"ChatGPT and Grok guides (Chinese articles)"{% else %}"ChatGPT 与 Grok 最新专题"{% endif %},
+  "numberOfItems": {{ site.data.featured_guides.size }},
+  "itemListElement": [
+    {% for guide in site.data.featured_guides %}
+    {"@type": "ListItem", "position": {{ forloop.index }}, "name": {% if include.lang == 'en' %}{{ guide.en_title | jsonify }}{% else %}{{ guide.label | jsonify }}{% endif %}, "url": {{ guide.url | jsonify }}}{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ]
+}
+</script>

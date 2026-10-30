@@ -6,7 +6,7 @@ description: "ChongGrok 支持 ChatGPT、Grok、Claude、Gemini AI 会员订阅�
 permalink: /
 current: home
 schema_type: CollectionPage
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 ---
 
 <section class="hero">
@@ -99,6 +99,8 @@ last_modified_at: 2026-10-28
 
 <section class="section section-compact"><div class="shell"><div class="notice"><strong>Grok 购买前：</strong>ChongGrok 不办理旧会员转向 X 联合会员。<a href="https://x.ai/pricing" rel="noopener">xAI 定价页</a>说明未授权第三方销售，其他来源的账号可能被暂停或终止；本站服务不代表官方授权。先阅读<a href="/products/#grok">两类服务与资料差异</a>。</div></div></section>
 
+{% include featured-guide-groups.html %}
+
 <section class="section section-soft">
   <div class="shell">
     <div class="section-head">
@@ -181,3 +183,5 @@ last_modified_at: 2026-10-28
   ]
 }
 </script>
+
+{% include featured-guide-schema.html %}

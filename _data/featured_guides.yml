@@ -1,0 +1,90 @@
+[
+  {
+    "product": "ChatGPT",
+    "slug": "gpt-6-1-codex-work-limits-guide",
+    "title": "GPT-6.1 (Terra / Sol) 与 GPT-6 Astra、Codex 额度详解：2026 年 10 月 Plus 与 Pro 怎么选？",
+    "label": "GPT-6.1、GPT-6 Astra 与 Codex 额度",
+    "summary": "比较模型入口、Work / Codex 用量，以及 Plus / Pro 档位。",
+    "en_title": "GPT-6.1, GPT-6 Astra and Codex usage limits",
+    "categories": "product technical",
+    "keywords": "模型 额度 套餐 选择 选型 编程 Terra Sol Astra Codex Work Plus Pro",
+    "url": "https://he20000405-pixel.github.io/chatgpt-plus-pro-china-guide/guides/gpt-6-1-codex-work-limits-guide/"
+  },
+  {
+    "product": "ChatGPT",
+    "slug": "chatgpt-session-security-verification-guide",
+    "title": "ChatGPT Plus / Pro 免密码代充安全吗？2026 AuthSession 凭证边界与充后刷新验收指南",
+    "label": "AuthSession 凭证安全与充后验收",
+    "summary": "了解 Plus 兑换的凭证要求、提交边界与充值后验收。",
+    "en_title": "AuthSession safety and post-redemption checks",
+    "categories": "safety payment",
+    "keywords": "安全 免密码 代充 session AuthSession 凭证 验收 核销 充值 登录 刷新",
+    "url": "https://he20000405-pixel.github.io/chatgpt-plus-pro-china-guide/guides/chatgpt-session-security-verification-guide/"
+  },
+  {
+    "product": "ChatGPT",
+    "slug": "chatgpt-apple-google-to-web-migration",
+    "title": "苹果 App Store / Google Play 内购的 ChatGPT Plus 怎么转网页端直充？2026 防掉号与防重复扣费指南",
+    "label": "苹果 / Google 内购转网页端",
+    "summary": "核对原订阅与账号，避免切换购买渠道时重复扣费。",
+    "en_title": "Moving from Apple or Google billing to web billing",
+    "categories": "payment safety",
+    "keywords": "苹果 Apple App Store 谷歌 Google Play 内购 手机 网页 迁移 转网页端 转网页直充 重复扣费 订阅",
+    "url": "https://he20000405-pixel.github.io/chatgpt-plus-pro-china-guide/guides/chatgpt-apple-google-to-web-migration/"
+  },
+  {
+    "product": "ChatGPT",
+    "slug": "chatgpt-vs-grok-2026-comparison",
+    "title": "2026 主流 AI 会员选型总表：ChatGPT (Plus / Pro) vs Grok (X 联合会员 / SuperGrok) 国内用户该开哪一个？",
+    "label": "ChatGPT 与 Grok 会员选型",
+    "summary": "对比订阅体系、编程工具、自动化能力与办理方式。",
+    "en_title": "ChatGPT vs Grok: choosing a membership",
+    "categories": "product",
+    "keywords": "ChatGPT Grok 会员 选型 对比 比较 哪个 Plus Pro 联合会员 SuperGrok Cursor Codex",
+    "url": "https://he20000405-pixel.github.io/chatgpt-plus-pro-china-guide/guides/chatgpt-vs-grok-2026-comparison/"
+  },
+  {
+    "product": "Grok",
+    "slug": "x-subscription-overview",
+    "title": "Grok 联合会员（The X Subscription）怎么选？2026 四档价格、Grok Bot 权限与国内开通指南",
+    "label": "X 联合会员四档怎么选",
+    "summary": "比较联合会员档位、Grok Bot 权限与新旧服务入口。",
+    "en_title": "The X Subscription: tiers and account requirements",
+    "categories": "product",
+    "keywords": "联合会员 X Subscription 选型 四档 套餐 价格 Plus Premium Super Ultra 开通 订阅",
+    "url": "https://he20000405-pixel.github.io/supergrok-china-guide/guides/x-subscription-overview/"
+  },
+  {
+    "product": "Grok",
+    "slug": "grok-bot-weekly-pool-guide",
+    "title": "为什么开了 Grok 会员还是用不了 Grok Bot？2026 权限解锁、每周额度池（Weekly Pool）与 Top-ups 指南",
+    "label": "Grok Bot 权限与每周额度",
+    "summary": "排查 Bot 无权限问题，了解每周额度池与额外用量。",
+    "en_title": "Grok Bot access, weekly usage and top-ups",
+    "categories": "product technical payment",
+    "keywords": "Grok Bot 权限 额度 每周 额度池 Weekly Pool Top-ups 不能用 无权限 用量",
+    "url": "https://he20000405-pixel.github.io/supergrok-china-guide/guides/grok-bot-weekly-pool-guide/"
+  },
+  {
+    "product": "Grok",
+    "slug": "supergrok-unify-migration-guide",
+    "title": "老版 SuperGrok 与 Cursor 要不要合并（Unify）？2026 X 联合会员迁移避坑、苹果退费与旧版保留指南",
+    "label": "旧版 SuperGrok / Cursor 合并指南",
+    "summary": "了解官方合并、原订阅退费与保留旧版的区别。",
+    "en_title": "Legacy SuperGrok and Cursor: whether to unify",
+    "categories": "product payment safety",
+    "keywords": "旧版 老版 SuperGrok Cursor 合并 迁移 Unify 退费 退款 退订 苹果 保留 旧转新",
+    "url": "https://he20000405-pixel.github.io/supergrok-china-guide/guides/supergrok-unify-migration-guide/"
+  },
+  {
+    "product": "Grok",
+    "slug": "grok-cursor-shared-billing",
+    "title": "X 联合会员下使用 Cursor 编程怎么计费？2026 Grok 第一方额度池与 Claude / GPT 扣费规则解析",
+    "label": "Cursor：Grok 与 Claude / GPT 怎么计费",
+    "summary": "区分第一方共享额度与第三方模型的额外费用。",
+    "en_title": "Cursor billing: Grok vs Claude and GPT",
+    "categories": "technical payment",
+    "keywords": "Cursor 编程 计费 扣费 费用 Grok Claude GPT 第一方 第三方 API 预充值 额度池",
+    "url": "https://he20000405-pixel.github.io/supergrok-china-guide/guides/grok-cursor-shared-billing/"
+  }
+]

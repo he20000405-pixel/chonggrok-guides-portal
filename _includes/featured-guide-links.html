@@ -1,0 +1,6 @@
+{%- assign selected_guides = site.data.featured_guides | where: "product", include.product -%}
+<ul class="benefits">
+  {% for guide in selected_guides %}
+  <li><a href="{{ guide.url | escape }}" rel="noopener" hreflang="zh-CN">{% if include.lang == 'en' %}{{ guide.en_title | escape }} <span class="directory-meta">Chinese article</span>{% else %}{{ guide.label | escape }}{% endif %}</a></li>
+  {% endfor %}
+</ul>

@@ -8,7 +8,7 @@ current: en
 lang: en
 og_locale: en_US
 schema_type: CollectionPage
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 ---
 
 <section class="hero">
@@ -75,6 +75,8 @@ last_modified_at: 2026-10-28
   </div>
 </section>
 
+{% include featured-guide-groups.html lang="en" %}
+
 <section class="section">
   <div class="shell">
     <div class="section-head">
@@ -115,3 +117,5 @@ last_modified_at: 2026-10-28
     <a class="button button-light" href="https://chonggrok.com/?utm_source=guides_chonggrok&amp;utm_medium=referral&amp;utm_campaign=en_final" rel="noopener">Visit chonggrok.com <i data-lucide="arrow-up-right"></i></a>
   </div>
 </section>
+
+{% include featured-guide-schema.html lang="en" %}

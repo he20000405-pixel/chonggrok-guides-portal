@@ -6,7 +6,7 @@ description: "按 ChatGPT、Grok、Claude、Gemini 或联合会员、Grok Bot、
 permalink: /knowledge/
 current: knowledge
 schema_type: CollectionPage
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 ---
 
 <section class="page-hero">
@@ -36,6 +36,14 @@ last_modified_at: 2026-10-28
     </div>
 
     <div class="directory-list">
+      {% for guide in site.data.featured_guides %}
+      <article class="directory-item" data-directory-item data-category="{{ guide.categories | escape }}" data-search="{{ guide.product | escape }} {{ guide.title | escape }} {{ guide.label | escape }} {{ guide.summary | escape }} {{ guide.keywords | escape }}">
+        <span class="directory-label">{{ guide.product | escape }}</span>
+        <div><h2>{{ guide.title | escape }}</h2><p>{{ guide.summary | escape }}</p><span class="directory-meta">专题文章 · 中文</span></div>
+        <a class="text-link" href="{{ guide.url | escape }}" rel="noopener" hreflang="zh-CN" aria-label="阅读：{{ guide.label | escape }}">阅读文章 <i data-lucide="arrow-up-right"></i></a>
+      </article>
+      {% endfor %}
+
       <article class="directory-item" data-directory-item data-category="product payment safety technical" data-search="all ai membership payment troubleshooting safety checklist decision tree labs">
         <span class="directory-label">综合</span>
         <div><h2>AI 会员知识中心</h2><p>跨产品搜索、安全清单、付款排障决策树与实用技术教程。</p><span class="directory-meta">四个产品 · 中英双语 · 约 2 分钟找到入口</span></div>
@@ -94,62 +102,20 @@ last_modified_at: 2026-10-28
   "@context": "https://schema.org",
   "@type": "ItemList",
   "name": "ChongGrok AI 会员知识目录",
-  "numberOfItems": 9,
+  "numberOfItems": {{ site.data.featured_guides.size | plus: 9 }},
   "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "AI 会员知识中心",
-      "url": "https://he20000405-pixel.github.io/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "ChatGPT Plus / Pro 指南",
-      "url": "https://he20000405-pixel.github.io/chatgpt-plus-pro-china-guide/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 3,
-      "name": "X 联合会员与 Grok Bot 指南",
-      "url": "https://he20000405-pixel.github.io/supergrok-china-guide/guides/x-subscription-grok-bot-guide/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 4,
-      "name": "Grok 与旧版 SuperGrok 指南",
-      "url": "https://he20000405-pixel.github.io/supergrok-china-guide/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 5,
-      "name": "Claude 套餐与排障指南",
-      "url": "https://he20000405-pixel.github.io/claude-pro-max-china-guide/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 6,
-      "name": "Gemini / Google AI 指南",
-      "url": "https://he20000405-pixel.github.io/gemini-google-ai-pro-china-guide/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 7,
-      "name": "AI 会员订阅安全与验收清单",
-      "url": "https://he20000405-pixel.github.io/resources/ai-membership-safety-checklist/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 8,
-      "name": "AI 订阅付款排障决策树",
-      "url": "https://he20000405-pixel.github.io/resources/ai-subscription-payment-troubleshooting/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 9,
-      "name": "AI 工具实用教程",
-      "url": "https://he20000405-pixel.github.io/labs/"
-    }
+    {% for guide in site.data.featured_guides %}
+    {"@type": "ListItem", "position": {{ forloop.index }}, "name": {{ guide.title | jsonify }}, "url": {{ guide.url | jsonify }}},
+    {% endfor %}
+{"@type": "ListItem", "position": 9, "name": "AI 会员知识中心", "url": "https://he20000405-pixel.github.io/"},
+{"@type": "ListItem", "position": 10, "name": "ChatGPT Plus / Pro 指南", "url": "https://he20000405-pixel.github.io/chatgpt-plus-pro-china-guide/"},
+{"@type": "ListItem", "position": 11, "name": "X 联合会员与 Grok Bot 指南", "url": "https://he20000405-pixel.github.io/supergrok-china-guide/guides/x-subscription-grok-bot-guide/"},
+{"@type": "ListItem", "position": 12, "name": "Grok 与旧版 SuperGrok 指南", "url": "https://he20000405-pixel.github.io/supergrok-china-guide/"},
+{"@type": "ListItem", "position": 13, "name": "Claude 套餐与排障指南", "url": "https://he20000405-pixel.github.io/claude-pro-max-china-guide/"},
+{"@type": "ListItem", "position": 14, "name": "Gemini / Google AI 指南", "url": "https://he20000405-pixel.github.io/gemini-google-ai-pro-china-guide/"},
+{"@type": "ListItem", "position": 15, "name": "AI 会员订阅安全与验收清单", "url": "https://he20000405-pixel.github.io/resources/ai-membership-safety-checklist/"},
+{"@type": "ListItem", "position": 16, "name": "AI 订阅付款排障决策树", "url": "https://he20000405-pixel.github.io/resources/ai-subscription-payment-troubleshooting/"},
+{"@type": "ListItem", "position": 17, "name": "AI 工具实用教程", "url": "https://he20000405-pixel.github.io/labs/"}
   ]
 }
 </script>

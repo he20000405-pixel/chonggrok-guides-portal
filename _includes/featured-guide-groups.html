@@ -1,0 +1,27 @@
+<section class="section" id="latest-guides">
+  <div class="shell">
+    <div class="section-head">
+      <div><p class="eyebrow">{% if include.lang == 'en' %}Latest guides{% else %}专题指南{% endif %}</p><h2>{% if include.lang == 'en' %}New ChatGPT and Grok guides{% else %}ChatGPT 与 Grok 最新专题{% endif %}</h2></div>
+      <p>{% if include.lang == 'en' %}Eight Chinese-language articles on plans, account safety, billing and usage. Each link opens the original knowledge-base article.{% else %}从套餐选择、账号安全到订阅迁移与用量排查，直接阅读知识库中的完整文章。{% endif %}</p>
+    </div>
+    <div class="product-grid">
+      <article class="product-card" data-product="chatgpt">
+        <div class="product-card-body">
+          <div class="product-card-heading"><span class="product-icon">GPT</span><h3>{% if include.lang == 'en' %}ChatGPT guides{% else %}ChatGPT 专题{% endif %}</h3></div>
+          <p>{% if include.lang == 'en' %}Plans, credentials, billing and product comparisons.{% else %}模型额度、凭证安全、购买渠道与会员选型。{% endif %}</p>
+          {% include featured-guide-links.html product="ChatGPT" lang=include.lang %}
+        </div>
+        <div class="product-card-actions"><a href="https://he20000405-pixel.github.io/chatgpt-plus-pro-china-guide/" rel="noopener" hreflang="zh-CN">{% if include.lang == 'en' %}All ChatGPT guides (Chinese){% else %}进入 ChatGPT 知识库{% endif %}</a></div>
+      </article>
+      <article class="product-card" data-product="grok">
+        <div class="product-card-body">
+          <div class="product-card-heading"><span class="product-icon">GRK</span><h3>{% if include.lang == 'en' %}Grok guides{% else %}Grok 专题{% endif %}</h3></div>
+          <p>{% if include.lang == 'en' %}Joint memberships, Bot access, legacy plans and Cursor billing.{% else %}联合会员、Bot 权限、旧版订阅与 Cursor 计费。{% endif %}</p>
+          {% include featured-guide-links.html product="Grok" lang=include.lang %}
+        </div>
+        <div class="product-card-actions"><a href="https://he20000405-pixel.github.io/supergrok-china-guide/" rel="noopener" hreflang="zh-CN">{% if include.lang == 'en' %}All Grok guides (Chinese){% else %}进入 Grok 知识库{% endif %}</a></div>
+      </article>
+    </div>
+    <div class="section-action"><a class="text-link" href="/knowledge/">{% if include.lang == 'en' %}Search all guides (Chinese){% else %}搜索全部知识指南{% endif %} <i data-lucide="arrow-right"></i></a></div>
+  </div>
+</section>
