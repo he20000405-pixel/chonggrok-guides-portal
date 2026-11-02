@@ -6,7 +6,7 @@ description: "ChongGrok 支持 ChatGPT、Grok、Claude、Gemini AI 会员订阅�
 permalink: /
 current: home
 schema_type: CollectionPage
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-02
 ---
 
 <section class="hero">
@@ -25,7 +25,7 @@ last_modified_at: 2026-10-31
       <div class="hero-panel-top"><strong>选择需要升级的产品</strong><span>四类产品 · 分别确认</span></div>
       <div class="mini-products">
         <a class="mini-product" data-product="chatgpt" href="#chatgpt-card"><span class="product-icon">GPT</span><span><strong>ChatGPT</strong><small>Plus / Pro 会员</small></span></a>
-        <a class="mini-product" data-product="grok" href="#grok-card"><span class="product-icon">GRK</span><span><strong>Grok</strong><small>联合会员 / 旧版独立订阅</small></span></a>
+        <a class="mini-product" data-product="grok" href="#grok-card"><span class="product-icon">GRK</span><span><strong>Grok</strong><small>联合会员 / 历史卡兑换</small></span></a>
         <a class="mini-product" data-product="claude" href="#claude-card"><span class="product-icon">CLD</span><span><strong>Claude</strong><small>个人 Pro 月度服务</small></span></a>
         <a class="mini-product" data-product="gemini" href="#gemini-card"><span class="product-icon">GEM</span><span><strong>Gemini</strong><small>Google AI 会员</small></span></a>
       </div>
@@ -62,12 +62,12 @@ last_modified_at: 2026-10-31
       </article>
       <article class="product-card" id="grok-card" data-product="grok">
         <div class="product-card-body">
-          <div class="product-card-heading"><span class="product-icon">GRK</span><h3>Grok 联合会员与旧版订阅</h3></div>
-          <p>The X Subscription 与旧版 SuperGrok 分开办理，充值不会把旧会员自动转换为联合会员。</p>
-          <ul class="benefits"><li>联合会员：先核对档位、账号与交付条件</li><li>旧版独立订阅：先确认账号资格</li><li>SSO 登录凭据与 User ID 是不同资料</li></ul>
+          <div class="product-card-heading"><span class="product-icon">GRK</span><h3>Grok 联合会员与历史卡兑换</h3></div>
+          <p>旧版 SuperGrok 月度、季度商品已停售；新购买前往 X 联合会员，已有历史 Grok 卡仍可独立兑换。</p>
+          <ul class="benefits"><li>联合会员：先核对档位、账号与交付条件</li><li>历史 Grok 卡：仅保留兑换与订单查询</li><li>SSO 登录凭据与 User ID 是不同资料</li></ul>
         </div>
         <div class="product-card-actions">
-          <a href="/products/#grok">查看两类 Grok 服务</a>
+          <a href="/products/#grok">查看新购与历史卡入口</a>
           <a href="https://he20000405-pixel.github.io/supergrok-china-guide/guides/x-subscription-grok-bot-guide/" rel="noopener">联合会员与 Grok Bot 指南 <i data-lucide="book-open"></i></a>
         </div>
       </article>
@@ -97,7 +97,7 @@ last_modified_at: 2026-10-31
   </div>
 </section>
 
-<section class="section section-compact"><div class="shell"><div class="notice"><strong>Grok 购买前：</strong>ChongGrok 不办理旧会员转向 X 联合会员。<a href="https://x.ai/pricing" rel="noopener">xAI 定价页</a>说明未授权第三方销售，其他来源的账号可能被暂停或终止；本站服务不代表官方授权。先阅读<a href="/products/#grok">两类服务与资料差异</a>。</div></div></section>
+<section class="section section-compact"><div class="shell"><div class="notice"><strong>Grok 购买前：</strong>ChongGrok 不办理旧会员转向 X 联合会员。<a href="https://x.ai/pricing" rel="noopener">xAI 定价页</a>说明未授权第三方销售，其他来源的账号可能被暂停或终止；本站服务不代表官方授权。先阅读<a href="/products/#grok">新购与历史卡资料差异</a>。</div></div></section>
 
 {% include featured-guide-groups.html %}
 
@@ -167,7 +167,7 @@ last_modified_at: 2026-10-31
       "name": "ChongGrok AI 会员服务",
       "itemListElement": [
         {"@type":"ListItem","position":1,"name":"ChatGPT 会员","url":"https://chonggrok.com/chatgpt"},
-        {"@type":"ListItem","position":2,"name":"Grok 联合会员与旧版订阅","url":"https://guides.chonggrok.com/products/#grok"},
+        {"@type":"ListItem","position":2,"name":"Grok 联合会员与历史卡兑换","url":"https://guides.chonggrok.com/products/#grok"},
         {"@type":"ListItem","position":3,"name":"Claude Pro","url":"https://chonggrok.com/claude"},
         {"@type":"ListItem","position":4,"name":"Gemini / Google AI","url":"https://chonggrok.com/gemini"}
       ]

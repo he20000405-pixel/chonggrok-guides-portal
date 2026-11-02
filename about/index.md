@@ -5,7 +5,7 @@ seo_title: "关于 ChongGrok"
 description: "了解 ChongGrok 的 AI 会员订阅服务范围、国内支付方式、账号资料原则、售后准备与第三方声明。"
 permalink: /about/
 current: about
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-02
 ---
 
 <section class="page-hero">
@@ -30,7 +30,7 @@ last_modified_at: 2026-10-28
       <h2 id="scope">服务范围</h2>
       <ul class="check-list">
         <li>提供 ChatGPT、Grok、Claude 与 Gemini 消费者会员相关服务，具体交付按商品分别说明。</li>
-        <li>X 联合会员与旧版 SuperGrok 分开办理；ChongGrok 不办理旧会员转向联合会员。</li>
+        <li>旧版 SuperGrok 月度、季度商品已停售，新购买使用 X 联合会员；历史 Grok 卡仅保留兑换与订单查询。ChongGrok 不办理旧会员转向联合会员。</li>
         <li>Claude 当前为自有账号个人 Pro 月度服务，不含 Max、团队席位或 API。</li>
         <li>不提供 API 额度、API 充值或 API billing 服务。</li>
         <li>不提供接码、批量注册或规避平台限制的服务。</li>

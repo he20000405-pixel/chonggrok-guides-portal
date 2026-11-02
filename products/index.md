@@ -2,11 +2,11 @@
 layout: default
 title: "ChatGPT、Grok、Claude、Gemini 会员服务"
 seo_title: "ChongGrok AI 会员服务"
-description: "查看 ChongGrok 的 ChatGPT、X 联合会员、旧版 SuperGrok、Claude Pro 与 Gemini 服务，核对账号条件、资料和兑换入口。"
+description: "查看 ChongGrok 的 ChatGPT、X 联合会员、Claude Pro 与 Gemini 服务及历史 Grok 卡兑换，核对账号条件、资料和入口。"
 permalink: /products/
 current: products
 schema_type: CollectionPage
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-02
 ---
 
 <section class="page-hero">
@@ -31,7 +31,7 @@ last_modified_at: 2026-10-31
 <h3 class="notice-spaced">Grok 相关阅读</h3>
 {% include featured-guide-links.html product="Grok" %}
 </div><div class="product-card-actions"><a href="https://chonggrok.com/x-subscription?utm_source=guides_chonggrok&amp;utm_medium=referral&amp;utm_campaign=products_x_subscription" rel="noopener">查看联合会员方案</a><a href="https://he20000405-pixel.github.io/supergrok-china-guide/guides/x-subscription-grok-bot-guide/" rel="noopener">联合会员与 Grok Bot 指南</a></div></article>
-      <article class="product-card" id="supergrok" data-product="grok"><div class="product-card-body"><div class="product-card-heading"><span class="product-icon">GRK</span><h2>旧版 SuperGrok 独立订阅</h2></div><p>面向符合条件的旧版账号提供 1 个月或 3 个月充值；先核对现有订阅，不能把它当作新联合会员。</p><ul class="benefits"><li>兑换入口为 /verify-grok</li><li>提交卡密与 Grok User ID，不提交完整 session</li><li>不会自动获得 Cursor 或 X 联合权益</li><li>回原 Grok 账号核对订阅与有效期</li></ul></div><div class="product-card-actions"><a href="https://chonggrok.com/supergrok?utm_source=guides_chonggrok&amp;utm_medium=referral&amp;utm_campaign=products_legacy_grok" rel="noopener">查看旧版服务条件</a><a href="https://he20000405-pixel.github.io/supergrok-china-guide/" rel="noopener">进入 Grok 知识库</a></div></article>
+      <article class="product-card" id="supergrok" data-product="grok"><div class="product-card-body"><div class="product-card-heading"><span class="product-icon">GRK</span><h2>历史 Grok 卡兑换</h2></div><p>旧版 SuperGrok 月度、季度商品已停售；新购买请查看上方 X 联合会员方案。已有历史 Grok 卡仍可独立兑换。</p><ul class="benefits"><li>兑换入口为 /verify-grok</li><li>提交卡密与 Grok User ID，不提交完整 session</li><li>不会自动获得 Cursor 或 X 联合权益</li><li>回原 Grok 账号核对订阅与有效期</li></ul></div><div class="product-card-actions"><a href="https://chonggrok.com/supergrok?utm_source=guides_chonggrok&amp;utm_medium=referral&amp;utm_campaign=products_legacy_grok" rel="noopener">查看选购与迁移说明</a><a href="https://he20000405-pixel.github.io/supergrok-china-guide/" rel="noopener">进入 Grok 知识库</a></div></article>
       <article class="product-card" id="claude" data-product="claude"><div class="product-card-body"><div class="product-card-heading"><span class="product-icon">CLD</span><h2>Claude Pro</h2></div><p>适合研究、长文本处理、专业写作和 Claude Code。</p><ul class="benefits"><li>人工通过 iOS 内购开通自有账号个人 Pro 月度订阅</li><li>不含 Max、团队席位或 API 额度</li><li>账号资格、交付资料与售后先确认</li><li>成功开通后的官方风控封号不提供质保</li></ul></div><div class="product-card-actions"><a href="https://chonggrok.com/claude?utm_source=guides_chonggrok&amp;utm_medium=referral&amp;utm_campaign=products_claude" rel="noopener">查看实时方案</a><a href="https://he20000405-pixel.github.io/claude-pro-max-china-guide/" rel="noopener">进入知识指南</a></div></article>
       <article class="product-card" id="gemini" data-product="gemini"><div class="product-card-body"><div class="product-card-heading"><span class="product-icon">GEM</span><h2>Gemini / Google AI</h2></div><p>适合 Google AI 生态相关的会员与账号服务需求。</p><ul class="benefits"><li>服务类型由产品页分别说明</li><li>交付方式以实时页面为准</li><li>购买前确认账号和售后规则</li></ul></div><div class="product-card-actions"><a href="https://chonggrok.com/gemini?utm_source=guides_chonggrok&amp;utm_medium=referral&amp;utm_campaign=products_gemini" rel="noopener">查看实时方案</a><a href="https://he20000405-pixel.github.io/gemini-google-ai-pro-china-guide/" rel="noopener">进入知识指南</a></div></article>
     </div>
@@ -62,7 +62,7 @@ last_modified_at: 2026-10-31
 {"@context":"https://schema.org","@type":"ItemList","name":"ChongGrok AI 会员服务","numberOfItems":5,"itemListElement":[
 {"@type":"ListItem","position":1,"name":"ChatGPT 会员","url":"https://guides.chonggrok.com/products/#chatgpt"},
 {"@type":"ListItem","position":2,"name":"X 联合会员","url":"https://guides.chonggrok.com/products/#grok"},
-{"@type":"ListItem","position":3,"name":"旧版 SuperGrok 独立订阅","url":"https://guides.chonggrok.com/products/#supergrok"},
+{"@type":"ListItem","position":3,"name":"历史 Grok 卡兑换","url":"https://guides.chonggrok.com/products/#supergrok"},
 {"@type":"ListItem","position":4,"name":"Claude Pro","url":"https://guides.chonggrok.com/products/#claude"},
 {"@type":"ListItem","position":5,"name":"Gemini / Google AI","url":"https://guides.chonggrok.com/products/#gemini"}]}
 </script>

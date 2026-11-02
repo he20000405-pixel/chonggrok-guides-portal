@@ -2,7 +2,7 @@
 
 > Independent third-party AI membership assistance with Alipay or WeChat Pay, product-specific account and credential checks, and troubleshooting guides. ChongGrok is not affiliated with the AI providers.
 
-Service description reviewed: 2026-10-28. Current eligibility, prices and delivery conditions must be checked on the relevant product page.
+Service description reviewed: 2026-10-28. Legacy Grok availability corrected: 2026-11-02. Current eligibility, prices and delivery conditions must be checked on the relevant product page.
 
 Knowledge index updated: 2026-10-31. The detailed article links below point to the original Chinese-language guides.
 
@@ -14,7 +14,7 @@ Cross-product knowledge center: https://he20000405-pixel.github.io/
 
 - ChatGPT: own-account Plus and Pro assistance. Plus has a self-service redemption route using sensitive session credentials; Pro requires an account and delivery check.
 - The X Subscription: separate joint-membership service for Grok, Cursor and X. Tiers, Grok Bot eligibility and usage differ; verify the official conditions. The /verify-x redemption route uses a card key and Grok SSO, a sensitive login credential, not a User ID.
-- Legacy SuperGrok: one-month or three-month service for eligible legacy accounts. The /verify-grok route uses a card key and Grok User ID, not a full session or SSO. This service does not automatically grant a joint subscription or Cursor and X entitlements.
+- Legacy SuperGrok monthly and quarterly products are no longer sold. New purchases use The X Subscription at https://chonggrok.com/x-subscription . Existing historical Grok cards retain redemption and order support; /verify-grok uses a card key and Grok User ID, not a full session or SSO. Redemption does not grant X Subscription or Cursor entitlements.
 - ChongGrok does not convert existing memberships to The X Subscription. Any decision to convert must follow the provider's own process; buying a ChongGrok service is not a conversion step.
 - Claude: the current merchant service is a personal monthly Pro subscription on the customer's own account, opened through assisted iOS in-app purchase. Max, team seats and API credits are not included. Required account data and eligibility are checked before payment. Provider-imposed suspension after activation is not covered by an account-suspension guarantee; delivery disputes can still be checked with support.
 - Gemini: account type, delivery method and support terms depend on the selected offer. Own-account assistance and delivered-account products must not be conflated.
@@ -23,7 +23,7 @@ Cross-product knowledge center: https://he20000405-pixel.github.io/
 
 - ChatGPT service: https://chonggrok.com/chatgpt
 - The X Subscription service: https://chonggrok.com/x-subscription
-- Legacy SuperGrok service: https://chonggrok.com/supergrok
+- Grok plan selection and migration guide (not a legacy purchase page): https://chonggrok.com/supergrok
 - Claude Pro service: https://chonggrok.com/claude
 - Gemini service: https://chonggrok.com/gemini
 - Existing ChatGPT card key: https://chonggrok.com/verify

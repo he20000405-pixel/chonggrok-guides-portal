@@ -5,7 +5,7 @@ seo_title: "AI 会员服务安全说明"
 description: "区分 ChatGPT session、X 联合会员 Grok SSO 与旧版 Grok User ID，了解登录凭据风险、资料边界和订单安全检查。"
 permalink: /security/
 current: security
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-02
 ---
 
 <section class="page-hero">
@@ -34,7 +34,7 @@ last_modified_at: 2026-10-28
         <tbody>
           <tr><td>ChatGPT</td><td>Plus 自助流程使用 session 类凭证</td><td>它代表登录会话；先理解用途，只在确认的兑换入口按字段提交，不公开传播</td></tr>
           <tr><td>X 联合会员</td><td>Grok SSO，兑换入口 /verify-x</td><td>SSO 是敏感登录凭据，不是 User ID；不应把临时凭据理解为无风险或自动失效保证</td></tr>
-          <tr><td>旧版 SuperGrok</td><td>Grok User ID，兑换入口 /verify-grok</td><td>它用于定位账号；只提交要求的 userId，不提交完整 session、Cookie 或 SSO</td></tr>
+          <tr><td>历史 Grok 卡兑换</td><td>Grok User ID，兑换入口 /verify-grok</td><td>仅适用于已持有的历史卡；只提交要求的 userId，不提交完整 session、Cookie 或 SSO</td></tr>
           <tr><td>Claude Pro</td><td>人工开通前由客服说明必要账号标识</td><td>不发送密码、验证码、完整会话或私密项目；如需身份验证，只由本人在官方入口提交</td></tr>
           <tr><td>Gemini</td><td>取决于具体账号类型和服务方案</td><td>提交前由产品页或客服说明，不固定宣称统一凭证</td></tr>
         </tbody>

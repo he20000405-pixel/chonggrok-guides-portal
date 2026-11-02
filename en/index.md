@@ -8,7 +8,7 @@ current: en
 lang: en
 og_locale: en_US
 schema_type: CollectionPage
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-02
 ---
 
 <section class="hero">
@@ -27,7 +27,7 @@ last_modified_at: 2026-10-31
       <div class="hero-panel-top"><strong>Choose a product</strong><span>Four product families</span></div>
       <div class="mini-products">
         <a class="mini-product" data-product="chatgpt" href="#en-products"><span class="product-icon">GPT</span><span><strong>ChatGPT</strong><small>Plus / Pro</small></span></a>
-        <a class="mini-product" data-product="grok" href="#en-products"><span class="product-icon">GRK</span><span><strong>Grok</strong><small>X Subscription / legacy</small></span></a>
+        <a class="mini-product" data-product="grok" href="#en-products"><span class="product-icon">GRK</span><span><strong>Grok</strong><small>X Subscription / existing cards</small></span></a>
         <a class="mini-product" data-product="claude" href="#en-products"><span class="product-icon">CLD</span><span><strong>Claude</strong><small>Personal Pro monthly</small></span></a>
         <a class="mini-product" data-product="gemini" href="#en-products"><span class="product-icon">GEM</span><span><strong>Gemini</strong><small>Google AI</small></span></a>
       </div>
@@ -60,8 +60,8 @@ last_modified_at: 2026-10-31
         <div class="product-card-actions"><a href="https://chonggrok.com/x-subscription?utm_source=guides_chonggrok&amp;utm_medium=referral&amp;utm_campaign=en_x_subscription" rel="noopener">Joint subscription service</a><a href="https://he20000405-pixel.github.io/supergrok-china-guide/guides/x-subscription-grok-bot-guide/" rel="noopener">New guide (Chinese)</a></div>
       </article>
       <article class="product-card" data-product="grok">
-        <div class="product-card-main"><span class="product-kicker">Legacy Grok</span><h3>Legacy SuperGrok</h3><p>One-month or three-month service for eligible legacy accounts. Redemption at /verify-grok uses a card key and Grok User ID, not a full session or SSO. It does not automatically upgrade an account to The X Subscription or add Cursor and X entitlements.</p></div>
-        <div class="product-card-actions"><a href="https://chonggrok.com/supergrok?utm_source=guides_chonggrok&amp;utm_medium=referral&amp;utm_campaign=en_legacy_grok" rel="noopener">Legacy service conditions</a><a href="https://he20000405-pixel.github.io/supergrok-china-guide/en/" rel="noopener">English Grok guide</a></div>
+        <div class="product-card-main"><span class="product-kicker">Legacy Grok</span><h3>Existing Grok cards</h3><p>Legacy monthly and quarterly products are no longer sold. New purchases use The X Subscription. Existing Grok cards still redeem at /verify-grok using a card key and Grok User ID, not a full session or SSO. Redemption does not add X Subscription or Cursor entitlements.</p></div>
+        <div class="product-card-actions"><a href="https://chonggrok.com/supergrok?utm_source=guides_chonggrok&amp;utm_medium=referral&amp;utm_campaign=en_legacy_grok" rel="noopener">Plan and migration guide</a><a href="https://he20000405-pixel.github.io/supergrok-china-guide/en/" rel="noopener">English Grok guide</a></div>
       </article>
       <article class="product-card" data-product="claude">
         <div class="product-card-main"><span class="product-kicker">Anthropic / Claude</span><h3>Claude Pro</h3><p>The current service opens a personal monthly Pro subscription on the customer’s account through assisted iOS in-app purchase. It does not include Max, team seats or API credits. Confirm eligibility and required account data first; provider-imposed suspension after activation is not covered by an account-suspension guarantee.</p></div>

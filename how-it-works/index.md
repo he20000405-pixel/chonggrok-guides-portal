@@ -5,7 +5,7 @@ seo_title: "ChongGrok 会员服务流程"
 description: "按四个步骤完成 ChongGrok AI 会员服务：选择产品、完成付款、提交最少必要资料，并回官方页面验收会员状态。"
 permalink: /how-it-works/
 current: flow
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-02
 ---
 
 <section class="page-hero">
@@ -24,12 +24,12 @@ last_modified_at: 2026-10-28
       </div>
 
       <h2 id="choose">第一步：选择产品与方案</h2>
-      <p>进入对应产品页，确认账号类型、会员档位、服务方式、资料要求和售后规则。X 联合会员与旧版 SuperGrok 分开办理；Claude 当前为自有账号个人 Pro 月度服务，不含 Max、团队席位或 API。Gemini 按具体商品区分自有账号服务与账号交付。</p>
+      <p>进入对应产品页，确认账号类型、会员档位、服务方式、资料要求和售后规则。旧版 SuperGrok 月度、季度商品已停售，新购买使用 X 联合会员；历史 Grok 卡仅保留兑换与订单查询。Claude 当前为自有账号个人 Pro 月度服务，不含 Max、团队席位或 API。Gemini 按具体商品区分自有账号服务与账号交付。</p>
       <p>ChongGrok 不办理旧会员转向 X 联合会员。已有旧订阅时，先按<a href="https://he20000405-pixel.github.io/supergrok-china-guide/guides/x-subscription-grok-bot-guide/" rel="noopener">联合会员与 Grok Bot 指南</a>核对官方选择，不能用购买本站服务代替官方转换。</p>
       <div class="button-row">
         <a class="button" href="https://chonggrok.com/chatgpt?utm_source=guides_chonggrok&amp;utm_medium=referral&amp;utm_campaign=flow_chatgpt" rel="noopener">ChatGPT</a>
         <a class="button" href="https://chonggrok.com/x-subscription?utm_source=guides_chonggrok&amp;utm_medium=referral&amp;utm_campaign=flow_x_subscription" rel="noopener">X 联合会员</a>
-        <a class="button" href="https://chonggrok.com/supergrok?utm_source=guides_chonggrok&amp;utm_medium=referral&amp;utm_campaign=flow_legacy_grok" rel="noopener">旧版 SuperGrok</a>
+        <a class="button" href="https://chonggrok.com/supergrok?utm_source=guides_chonggrok&amp;utm_medium=referral&amp;utm_campaign=flow_legacy_grok" rel="noopener">Grok 选购与迁移说明</a>
         <a class="button" href="https://chonggrok.com/claude?utm_source=guides_chonggrok&amp;utm_medium=referral&amp;utm_campaign=flow_claude" rel="noopener">Claude</a>
         <a class="button" href="https://chonggrok.com/gemini?utm_source=guides_chonggrok&amp;utm_medium=referral&amp;utm_campaign=flow_gemini" rel="noopener">Gemini</a>
       </div>
@@ -50,7 +50,7 @@ last_modified_at: 2026-10-28
         <tbody>
           <tr><td>ChatGPT</td><td>Plus 自助流程使用 session 类凭证；Pro 按客服说明处理</td><td>确认当前登录的是需要升级的账号</td></tr>
           <tr><td>X 联合会员</td><td>/verify-x 使用卡密与 Grok SSO</td><td>SSO 是敏感登录凭据，不是 User ID；提交前理解凭据用途与第三方服务风险</td></tr>
-          <tr><td>旧版 SuperGrok</td><td>/verify-grok 使用卡密与 Grok User ID</td><td>确认旧版账号资格，只提交要求的标识，不发送完整 session</td></tr>
+          <tr><td>历史 Grok 卡兑换</td><td>/verify-grok 使用卡密与 Grok User ID</td><td>仅适用于已持有的历史卡；只提交要求的标识，不发送完整 session</td></tr>
           <tr><td>Claude Pro</td><td>人工 iOS 内购，所需账号标识先由客服说明</td><td>不发送密码、验证码或完整会话；身份验证只由本人在官方入口完成</td></tr>
           <tr><td>Gemini</td><td>按具体方案和客服说明确认</td><td>先确认账号类型、交付方式和售后规则</td></tr>
         </tbody>
@@ -78,7 +78,7 @@ last_modified_at: 2026-10-28
       <div class="button-row">
         <a class="button" href="https://chonggrok.com/verify?utm_source=guides_chonggrok&amp;utm_medium=referral&amp;utm_campaign=flow_verify_chatgpt" rel="noopener">ChatGPT 卡密兑换</a>
         <a class="button" href="https://chonggrok.com/verify-x?utm_source=guides_chonggrok&amp;utm_medium=referral&amp;utm_campaign=flow_verify_x" rel="noopener">X 联合会员兑换</a>
-        <a class="button" href="https://chonggrok.com/verify-grok?utm_source=guides_chonggrok&amp;utm_medium=referral&amp;utm_campaign=flow_verify_legacy_grok" rel="noopener">旧版 Grok 卡密兑换</a>
+        <a class="button" href="https://chonggrok.com/verify-grok?utm_source=guides_chonggrok&amp;utm_medium=referral&amp;utm_campaign=flow_verify_legacy_grok" rel="noopener">历史 Grok 卡兑换</a>
       </div>
       <p>三个入口对应不同商品与资料，不要互换。<a href="https://x.ai/pricing" rel="noopener">xAI 定价页</a>说明未授权第三方销售，其他来源的账号可能被暂停或终止；ChongGrok 不是官方授权销售方。</p>
     </article>
