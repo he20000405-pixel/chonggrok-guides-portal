@@ -124,7 +124,7 @@ last_modified_at: 2026-11-02
       <p>已经扣款、交易待处理或账号已有有效订阅时，不要再次购买。先按购买渠道和当前状态完成核对。</p>
     </div>
     <div class="route-grid">
-      <article class="route-card"><h3><i data-lucide="credit-card-x"></i> 付款失败</h3><p>检查购买渠道、账单资料、银行卡验证和账号状态，避免连续重复尝试。</p><a class="text-link" href="/knowledge/">查找付款排障指南 <i data-lucide="arrow-right"></i></a></article>
+      <article class="route-card"><h3><i data-lucide="credit-card"></i> 付款失败</h3><p>检查购买渠道、账单资料、银行卡验证和账号状态，避免连续重复尝试。</p><a class="text-link" href="/knowledge/">查找付款排障指南 <i data-lucide="arrow-right"></i></a></article>
       <article class="route-card"><h3><i data-lucide="circle-alert"></i> 已扣款仍显示 Free</h3><p>核对最终收据、原购买账号、登录方式和权益是否已附着到当前账号。</p><a class="text-link" href="https://he20000405-pixel.github.io/resources/ai-subscription-payment-troubleshooting/" rel="noopener">使用付款排障决策树 <i data-lucide="arrow-up-right"></i></a></article>
       <article class="route-card"><h3><i data-lucide="refresh-cw-off"></i> 续费失败</h3><p>回原计费渠道检查订阅状态和付款方式，避免在另一个平台建立重复订阅。</p><a class="text-link" href="/knowledge/">进入产品知识库 <i data-lucide="arrow-right"></i></a></article>
     </div>

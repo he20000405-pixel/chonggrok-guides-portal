@@ -28,11 +28,11 @@ last_modified_at: 2026-10-31
     </div>
 
     <div class="directory-filters" role="group" aria-label="按内容类型筛选">
-      <button class="directory-filter is-active" type="button" data-directory-filter="all">全部</button>
-      <button class="directory-filter" type="button" data-directory-filter="product">产品指南</button>
-      <button class="directory-filter" type="button" data-directory-filter="payment">付款排障</button>
-      <button class="directory-filter" type="button" data-directory-filter="safety">账号安全</button>
-      <button class="directory-filter" type="button" data-directory-filter="technical">技术教程</button>
+      <button class="directory-filter is-active" type="button" data-directory-filter="all" aria-pressed="true">全部</button>
+      <button class="directory-filter" type="button" data-directory-filter="product" aria-pressed="false">产品指南</button>
+      <button class="directory-filter" type="button" data-directory-filter="payment" aria-pressed="false">付款排障</button>
+      <button class="directory-filter" type="button" data-directory-filter="safety" aria-pressed="false">账号安全</button>
+      <button class="directory-filter" type="button" data-directory-filter="technical" aria-pressed="false">技术教程</button>
     </div>
 
     <div class="directory-list">

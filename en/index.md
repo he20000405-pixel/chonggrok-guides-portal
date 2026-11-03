@@ -84,7 +84,7 @@ last_modified_at: 2026-11-02
       <p>If a charge is complete or pending, first identify the billing channel, purchasing account and current subscription state.</p>
     </div>
     <div class="route-grid">
-      <article class="route-card"><h3><i data-lucide="credit-card-x"></i> Payment failed</h3><p>Check the original checkout, billing details, bank decision and required verification before trying another payment method.</p><a class="text-link" href="/knowledge/">Find a product guide <i data-lucide="arrow-right"></i></a></article>
+      <article class="route-card"><h3><i data-lucide="credit-card"></i> Payment failed</h3><p>Check the original checkout, billing details, bank decision and required verification before trying another payment method.</p><a class="text-link" href="/knowledge/">Find a product guide <i data-lucide="arrow-right"></i></a></article>
       <article class="route-card"><h3><i data-lucide="circle-alert"></i> Charged but still Free</h3><p>Confirm the final receipt, original purchasing account, sign-in method and whether the current account recognizes paid access.</p><a class="text-link" href="https://he20000405-pixel.github.io/en/resources/ai-subscription-payment-troubleshooting/" rel="noopener">Open the decision tree <i data-lucide="arrow-up-right"></i></a></article>
       <article class="route-card"><h3><i data-lucide="refresh-cw-off"></i> Renewal failed</h3><p>Return to the original billing channel and resolve its status before creating a subscription on another platform.</p><a class="text-link" href="/knowledge/">Open the knowledge directory <i data-lucide="arrow-right"></i></a></article>
     </div>

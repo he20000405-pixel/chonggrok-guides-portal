@@ -95,7 +95,11 @@
   directoryFilters.forEach((button) => {
     button.addEventListener("click", () => {
       activeDirectoryFilter = button.dataset.directoryFilter || "all";
-      directoryFilters.forEach((item) => item.classList.toggle("is-active", item === button));
+      directoryFilters.forEach((item) => {
+        const active = item === button;
+        item.classList.toggle("is-active", active);
+        item.setAttribute("aria-pressed", String(active));
+      });
       filterDirectory();
     });
   });
